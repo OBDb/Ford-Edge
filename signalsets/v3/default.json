@@ -34,6 +34,14 @@
 { "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "3201"}, "freq": 30,
   "signals": [
     {"id": "EDGE_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
+  ]},
+{ "hdr": "7DF", "dbg": true, "cmd": {"22": "1310"}, "freq": 30,
+  "signals": [
+    {"id": "BRONCO_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "7DF", "dbg": true, "cmd": {"22": "1E12"}, "freq": 30,
+  "signals": [
+    {"id": "BRONCO_GEAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
   ]}
 ]
 }
