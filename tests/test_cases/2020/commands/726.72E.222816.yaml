@@ -1,0 +1,22 @@
+command_id: 726.72E.222816
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 72E05622816033B
+  expected_values:
+    EDGE_TP_RLO: 41.35
+- response: 72E05622816033E
+  expected_values:
+    EDGE_TP_RLO: 41.5
+- response: '72E056228160340'
+  expected_values:
+    EDGE_TP_RLO: 41.6
+- response: '72E056228160343'
+  expected_values:
+    EDGE_TP_RLO: 41.75
+- response: '72E056228160345'
+  expected_values:
+    EDGE_TP_RLO: 41.85
+- response: '72E056228160348'
+  expected_values:
+    EDGE_TP_RLO: 42

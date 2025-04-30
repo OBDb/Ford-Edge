@@ -1,0 +1,52 @@
+command_id: 7E0.012F
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E803412F4A
+  expected_values:
+    FLI: 29.01961
+- response: 7E803412F4D
+  expected_values:
+    FLI: 30.19608
+- response: 7E803412F4E
+  expected_values:
+    FLI: 30.58824
+- response: 7E803412F50
+  expected_values:
+    FLI: 31.37255
+- response: 7E803412F51
+  expected_values:
+    FLI: 31.76471
+- response: 7E803412F54
+  expected_values:
+    FLI: 32.94118
+- response: 7E803412F55
+  expected_values:
+    FLI: 33.33333
+- response: 7E803412F57
+  expected_values:
+    FLI: 34.11765
+- response: 7E803412F58
+  expected_values:
+    FLI: 34.5098
+- response: 7E803412F5B
+  expected_values:
+    FLI: 35.68627
+- response: 7E803412F5F
+  expected_values:
+    FLI: 37.2549
+- response: 7E803412F60
+  expected_values:
+    FLI: 37.64706
+- response: 7E803412F62
+  expected_values:
+    FLI: 38.43137
+- response: 7E803412F64
+  expected_values:
+    FLI: 39.21569
+- response: 7E803412F65
+  expected_values:
+    FLI: 39.60784
+- response: 7E803412F71
+  expected_values:
+    FLI: 44.31373
