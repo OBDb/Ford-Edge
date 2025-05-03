@@ -25,11 +25,11 @@
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "C150"}, "freq": 3,
   "signals": [
-    {"id": "EDGE_TRUNK_OPEN",          "path": "Doors & Windows", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk Ajar?"},
-    {"id": "EDGE_RRD_OPEN",            "path": "Doors & Windows", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Right Door Ajar?"},
-    {"id": "EDGE_RLD_OPEN",            "path": "Doors & Windows", "fmt": {"bix": 13, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Left Door Ajar?"},
-    {"id": "EDGE_DRIVER_DOOR_OPEN",    "path": "Doors & Windows", "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver Door Ajar"},
-    {"id": "EDGE_PASSENGER_DOOR_OPEN", "path": "Doors & Windows", "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger Door Ajar?"}
+    {"id": "EDGE_TRUNK_OPEN",          "path": "Doors", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk Ajar?"},
+    {"id": "EDGE_RRD_OPEN",            "path": "Doors", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Right Door Ajar?"},
+    {"id": "EDGE_RLD_OPEN",            "path": "Doors", "fmt": {"bix": 13, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Left Door Ajar?"},
+    {"id": "EDGE_DRIVER_DOOR_OPEN",    "path": "Doors", "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver Door Ajar"},
+    {"id": "EDGE_PASSENGER_DOOR_OPEN", "path": "Doors", "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger Door Ajar?"}
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "C154"}, "freq": 3,
   "signals": [
@@ -97,7 +97,7 @@
   ]},
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "F42F"}, "freq": 30,
   "signals": [
-    {"id": "EDGE_FLI_v2", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel level (alternative)"}
+    {"id": "EDGE_FLI_V2", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel level (alternative)"}
   ]},
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "F45C"}, "freq": 30,
   "signals": [
@@ -105,111 +105,111 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0301"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] MAP voltage", "fmt": { "len": 16, "max": 5, "mul": 0.0009765625, "unit": "volts" }, "name": "Manifold absolute pressure sensor voltage", "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle."}
+    {"id": "EDGE_MAP_V", "fmt": { "len": 16, "max": 5, "mul": 0.0009765625, "unit": "volts" }, "name": "Manifold absolute pressure sensor voltage", "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle."}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0307"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] LPFP duty cycle", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "Low pressure fuel pump commanded duty cycle"}
+    {"id": "EDGE_LPFP_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "Low pressure fuel pump commanded duty cycle"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "030F"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] Commanded lambda", "fmt": { "len": 16, "max": 5, "mul": 0.0000305176, "unit": "scalar" }, "name": "Commanded lambda", "description": "The ratio of of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
+    {"id": "EDGE_CL", "fmt": { "len": 16, "max": 5, "mul": 0.0000305176, "unit": "scalar" }, "name": "Commanded lambda", "description": "The ratio of of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0316"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] VCT intake duty cycle", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "VCT intake camshaft solenoid duty cycle"}
+    {"id": "EDGE_VCT_INT_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "VCT intake camshaft solenoid duty cycle"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0317"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] VCT exhaust duty cycle", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "VCT exhaust camshaft solenoid duty cycle"}
+    {"id": "EDGE_VCT_EXH_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "VCT exhaust camshaft solenoid duty cycle"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0318"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] VCT intake actual", "fmt": { "len": 16, "max": 0, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake camshaft actual"}
+    {"id": "EDGE_VCT_INT_ACT", "fmt": { "len": 16, "max": 0, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake camshaft actual"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0319"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] VCT exhaust actual", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust camshaft actual"}
+    {"id": "EDGE_VCT_EXH_ACT", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust camshaft actual"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "031A"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] VCT intake error", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake camshaft error"}
+    {"id": "EDGE_VCT_INT_ERR", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake camshaft error"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "031B"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] VCT exhaust error", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust camshaft error"}
+    {"id": "EDGE_VCT_EXH_ERR", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust camshaft error"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0324"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] HPFP sensor voltage", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "High pressure fuel rail sensor voltage"}
+    {"id": "EDGE_HPFP_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "High pressure fuel rail sensor voltage"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "032B"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] Accelerator pedal position", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator Pedal Position"}
+    {"id": "EDGE_ACC_POS", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator Pedal Position"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0338"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] ETC learned trim", "fmt": { "len": 16, "max": 90, "min": -90, "mul": 0.001953125, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
+    {"id": "EDGE_ETC_TRIM_LEARNED", "fmt": { "len": 16, "max": 90, "min": -90, "mul": 0.001953125, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "033C"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] TIP sensor voltage", "fmt": { "len": 16, "max": 5, "mul": 0.0048828125, "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"}
+    {"id": "EDGE_TIP_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048828125, "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "033E"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] TIP actual abs", "fmt": { "len": 16, "max": 60, "mul": 0.0011064263, "unit": "psi" }, "name": "Throttle inlet pressure absolute"}
+    {"id": "EDGE_TIP_ABS", "fmt": { "len": 16, "max": 60, "mul": 0.0011064263, "unit": "psi" }, "name": "Throttle inlet pressure absolute"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0353"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] Baro", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 0.0362553791, "unit": "psi" }, "name": "Barometric pressure"}
+    {"id": "EDGE_BARO", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 0.0362553791, "unit": "psi" }, "name": "Barometric pressure"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "035A"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] Baro Sensor V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
+    {"id": "EDGE_BARO_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "035F"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] Rear O2 V", "fmt": { "len": 16, "max": 1, "mul": 0.0009765625, "unit": "volts" }, "name": "Rear O2 voltage"}
+    {"id": "EDGE_RO2_V", "fmt": { "len": 16, "max": 1, "mul": 0.0009765625, "unit": "volts" }, "name": "Rear O2 voltage"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "038E"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] Evap Pres Sensor V", "fmt": { "len": 16, "max": 5, "mul": 0.1998046869, "unit": "volts" }, "name": "Evaporative vapor pressure sensor voltage"}
+    {"id": "EDGE_EVAP_V", "fmt": { "len": 16, "max": 5, "mul": 0.1998046869, "unit": "volts" }, "name": "Evaporative vapor pressure sensor voltage"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "038F"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] ECT", "fmt": { "len": 16, "max": 148.889, "min": -40, "mul": 0.015625, "unit": "celsius" }, "name": "Engine coolant temperature"}
+    {"id": "EDGE_ECT", "fmt": { "len": 16, "max": 148.889, "min": -40, "mul": 0.015625, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0393"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] AC Pressure", "fmt": { "len": 16, "max": 1000, "min": -100, "mul": 0.2900754962, "unit": "psi" }, "name": "Air conditioning compressor pressure"}
+    {"id": "EDGE_AC_P", "fmt": { "len": 16, "max": 1000, "min": -100, "mul": 0.2900754962, "unit": "psi" }, "name": "Air conditioning compressor pressure"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "03BA"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] AAT Sensor V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Ambient air temperature sensor voltage"}
+    {"id": "EDGE_AAT_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Ambient air temperature sensor voltage"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "03BB"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] VCT Exh Des", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust cam desired"}
+    {"id": "EDGE_VCT_EXH_DES", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust cam desired"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "03BC"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] VCT Int Des", "fmt": { "len": 16, "max": 0, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake cam desired"}
+    {"id": "EDGE_VCT_INT_DES", "fmt": { "len": 16, "max": 0, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake cam desired"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "03BD"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] CL Lambda Corr", "fmt": { "len": 16, "max": 5, "min": -5, "mul": 0.0001220703, "unit": "scalar" }, "name": "Closed loop lambda correction"}
+    {"id": "EDGE_CL_LC", "fmt": { "len": 16, "max": 5, "min": -5, "mul": 0.0001220703, "unit": "scalar" }, "name": "Closed loop lambda correction"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "03CA"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] MCT", "fmt": { "len": 8, "max": 148.889, "unit": "celsius" }, "name": "Manifold charge temperature"}
+    {"id": "EDGE_MCT", "fmt": { "len": 8, "max": 148.889, "unit": "celsius" }, "name": "Manifold charge temperature"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "03DC"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] HPFP Desired", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "High pressure fuel pressure desired"}
+    {"id": "EDGE_HPFP_DES", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "High pressure fuel pressure desired"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "03E8"}, "freq": 0.25,
   "signals": [
-    {"id": "EDGE_[ECU] OAR", "fmt": { "len": 16, "max": 1, "min": -1, "mul": 0.0000610352, "unit": "scalar" }, "name": "Octane adjust ratio"}
+    {"id": "EDGE_OAR", "fmt": { "len": 16, "max": 1, "min": -1, "mul": 0.0000610352, "unit": "scalar" }, "name": "Octane adjust ratio"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E12"}, "freq": 2,
   "signals": [
@@ -225,37 +225,15 @@
           "9":  { "description": "Ninth gear",   "value": "9" },
           "10": { "description": "Tenth gear",   "value": "10" }
         }}
-    },
-    {"id": "EDGE_GEAR_v2", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
-          "1":  { "description": "First gear",   "value": "1" },
-          "2":  { "description": "Second gear",  "value": "2" },
-          "3":  { "description": "Third gear",   "value": "3" },
-          "4":  { "description": "Fourth gear",  "value": "4" },
-          "5":  { "description": "Fifth gear",   "value": "5" },
-          "6":  { "description": "Sixth gear",   "value": "6" },
-          "7":  { "description": "Seventh gear", "value": "7" },
-          "8":  { "description": "Eighth gear",  "value": "8" },
-          "9":  { "description": "Ninth gear",   "value": "9" },
-          "10": { "description": "Tenth gear",   "value": "10" }
-        }}
     }
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E1C"}, "freq": 1,
   "signals": [
-    {"id": "EDGE_TOT",    "path": "Engine",       "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"},
-    {"id": "EDGE_TOT_v2", "path": "Transmission", "fmt": { "len": 16, "max": 255,              "div": 16,               "unit": "celsius" }, "name": "Transmission oil temperature"}
+    {"id": "EDGE_TOT", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E23"}, "freq": 2,
   "signals": [
     {"id": "EDGE_GEAR_SHFT", "path": "Engine", "name": "Shift gear", "fmt": {"len": 8, "map": {
-          "10": { "description": "Manual",  "value": "MANUAL" },
-          "46": { "description": "Drive",   "value": "DRIVE" },
-          "50": { "description": "Neutral", "value": "NEUTRAL" },
-          "60": { "description": "Reverse", "value": "REVERSE" },
-          "70": { "description": "Park",    "value": "PARK" }
-        }}
-    },
-    {"id": "EDGE_GEAR_SHFT_v2", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "10": { "description": "Manual",  "value": "MANUAL" },
           "46": { "description": "Drive",   "value": "DRIVE" },
           "50": { "description": "Neutral", "value": "NEUTRAL" },
@@ -270,8 +248,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F42F"}, "freq": 1,
   "signals": [
-    {"id": "EDGE_FLI",    "path": "Fuel", "fmt": { "len": 8, "max": 255, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"},
-    {"id": "EDGE_FLI_v3", "path": "Fuel", "fmt": { "len": 8, "max": 255, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+    {"id": "EDGE_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "fcm1": true, "dbg": true, "cmd": {"22": "DD04"}, "freq": 5,
   "signals": [
