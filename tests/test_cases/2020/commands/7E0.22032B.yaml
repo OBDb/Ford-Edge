@@ -1,0 +1,34 @@
+command_id: 7E0.22032B
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80462032B0B
+  expected_values:
+    EDGE_ACC_POS: 5.5
+- response: 7E80462032B10
+  expected_values:
+    EDGE_ACC_POS: 8
+- response: 7E80462032B13
+  expected_values:
+    EDGE_ACC_POS: 9.5
+- response: 7E80462032B14
+  expected_values:
+    EDGE_ACC_POS: 10
+- response: 7E80462032B1A
+  expected_values:
+    EDGE_ACC_POS: 13
+- response: 7E80462032B1C
+  expected_values:
+    EDGE_ACC_POS: 14
+- response: 7E80462032B1E
+  expected_values:
+    EDGE_ACC_POS: 15
+- response: 7E80462032B25
+  expected_values:
+    EDGE_ACC_POS: 18.5
+- response: 7E80462032B2B
+  expected_values:
+    EDGE_ACC_POS: 21.5
+- response: 7E80462032B3E
+  expected_values:
+    EDGE_ACC_POS: 31

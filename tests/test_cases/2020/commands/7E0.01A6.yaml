@@ -5,63 +5,9 @@ test_cases:
 - response: 7E80641A6000ED481
   expected_values:
     ODO: 97190.5
-- response: 7E80641A6000ED485
+- response: 7E80641A6000EDDFE
   expected_values:
-    ODO: 97190.9
-- response: 7E80641A6000ED48C
+    ODO: 97433.4
+- response: 7E80641A6000EDE07
   expected_values:
-    ODO: 97191.6
-- response: 7E80641A6000ED493
-  expected_values:
-    ODO: 97192.3
-- response: 7E80641A6000ED495
-  expected_values:
-    ODO: 97192.5
-- response: 7E80641A6000ED496
-  expected_values:
-    ODO: 97192.6
-- response: 7E80641A6000ED499
-  expected_values:
-    ODO: 97192.9
-- response: 7E80641A6000ED49B
-  expected_values:
-    ODO: 97193.1
-- response: 7E80641A6000ED49E
-  expected_values:
-    ODO: 97193.4
-- response: 7E80641A6000ED4A1
-  expected_values:
-    ODO: 97193.7
-- response: 7E80641A6000ED4A7
-  expected_values:
-    ODO: 97194.3
-- response: 7E80641A6000ED4AD
-  expected_values:
-    ODO: 97194.9
-- response: 7E80641A6000ED4B3
-  expected_values:
-    ODO: 97195.5
-- response: 7E80641A6000ED4B6
-  expected_values:
-    ODO: 97195.8
-- response: 7E80641A6000ED4BC
-  expected_values:
-    ODO: 97196.4
-- response: 7E80641A6000ED4BD
-  expected_values:
-    ODO: 97196.5
-- response: 7E80641A6000ED4BF
-  expected_values:
-    ODO: 97196.7
-- response: 7E80641A6000ED4C0
-  expected_values:
-    ODO: 97196.8
-- response: 7E80641A6000ED4C5
-  expected_values:
-    ODO: 97197.3
-- response: 7E80641A6000ED4C9
-  expected_values:
-    ODO: 97197.7
-- response: 7E80641A6000ED4CF
-  expected_values:
-    ODO: 97198.3
+    ODO: 97434.3

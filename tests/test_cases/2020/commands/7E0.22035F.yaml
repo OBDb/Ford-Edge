@@ -1,0 +1,13 @@
+command_id: 7E0.22035F
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562035F0001
+  expected_values:
+    EDGE_RO2_V: 0.00098
+- response: 7E80562035F02FF
+  expected_values:
+    EDGE_RO2_V: 0.74902
+- response: 7E80562035F0300
+  expected_values:
+    EDGE_RO2_V: 0.75

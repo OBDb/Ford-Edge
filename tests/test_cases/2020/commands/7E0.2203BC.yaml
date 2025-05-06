@@ -2,12 +2,15 @@ command_id: 7E0.2203BC
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E8056203BC0000
+- response: 7E8056203BCFCF7
   expected_values:
     EDGE_VCT_INT_DES: 0
-- response: 7E8056203BCFDE5
+- response: 7E8056203BCFE16
   expected_values:
     EDGE_VCT_INT_DES: 0
-- response: 7E8056203BCFE27
+- response: 7E8056203BCFF31
+  expected_values:
+    EDGE_VCT_INT_DES: 0
+- response: 7E8056203BCFFF8
   expected_values:
     EDGE_VCT_INT_DES: 0
