@@ -1,0 +1,16 @@
+command_id: 7E0.220307
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8056203071F97
+  expected_values:
+    EDGE_LPFP_DUTY: 24.67957
+- response: 7E805620307210F
+  expected_values:
+    EDGE_LPFP_DUTY: 25.82703
+- response: 7E80562030721FD
+  expected_values:
+    EDGE_LPFP_DUTY: 26.55334
+- response: 7E805620307243D
+  expected_values:
+    EDGE_LPFP_DUTY: 28.31116

@@ -1,0 +1,16 @@
+command_id: 7E0.220301
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E805620301014B
+  expected_values:
+    EDGE_MAP_V: 0.32324
+- response: '7E8056203010201'
+  expected_values:
+    EDGE_MAP_V: 0.50098
+- response: 7E80562030105EC
+  expected_values:
+    EDGE_MAP_V: 1.48047
+- response: '7E8056203010785'
+  expected_values:
+    EDGE_MAP_V: 1.87988

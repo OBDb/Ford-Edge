@@ -5,36 +5,6 @@ test_cases:
 - response: '72E056228160289'
   expected_values:
     EDGE_TP_RLO: 32.45
-- response: '72E056228160298'
-  expected_values:
-    EDGE_TP_RLO: 33.2
-- response: 72E05622816029D
-  expected_values:
-    EDGE_TP_RLO: 33.45
-- response: 72E0562281602A2
-  expected_values:
-    EDGE_TP_RLO: 33.7
-- response: 72E0562281602A5
-  expected_values:
-    EDGE_TP_RLO: 33.85
-- response: 72E0562281602A7
-  expected_values:
-    EDGE_TP_RLO: 33.95
-- response: 72E0562281602AA
-  expected_values:
-    EDGE_TP_RLO: 34.1
-- response: 72E0562281602AC
-  expected_values:
-    EDGE_TP_RLO: 34.2
-- response: 72E0562281602AF
-  expected_values:
-    EDGE_TP_RLO: 34.35
-- response: 72E0562281602B1
-  expected_values:
-    EDGE_TP_RLO: 34.45
-- response: 72E0562281602B4
-  expected_values:
-    EDGE_TP_RLO: 34.6
 - response: 72E0562281602BB
   expected_values:
     EDGE_TP_RLO: 34.95

@@ -2,9 +2,9 @@ command_id: 7E0.22033C
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E80562033C0122
+- response: 7E80562033C0133
   expected_values:
-    EDGE_TIP_V: 1.41602
-- response: 7E80562033C0189
+    EDGE_TIP_V: 1.49902
+- response: 7E80562033C01D9
   expected_values:
-    EDGE_TIP_V: 1.91895
+    EDGE_TIP_V: 2.30957

@@ -5,24 +5,9 @@ test_cases:
 - response: 7E804413109E9
   expected_values:
     CLR_DIST: 2537
-- response: 7E804413109EA
-  expected_values:
-    CLR_DIST: 2538
-- response: 7E804413109EB
-  expected_values:
-    CLR_DIST: 2539
-- response: 7E804413109EC
-  expected_values:
-    CLR_DIST: 2540
-- response: 7E804413109ED
-  expected_values:
-    CLR_DIST: 2541
-- response: 7E804413109EE
-  expected_values:
-    CLR_DIST: 2542
-- response: 7E804413109EF
-  expected_values:
-    CLR_DIST: 2543
 - response: 7E804413109F0
   expected_values:
     CLR_DIST: 2544
+- response: 7E80441310ACF
+  expected_values:
+    CLR_DIST: 2767

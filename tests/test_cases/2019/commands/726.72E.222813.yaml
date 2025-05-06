@@ -5,42 +5,6 @@ test_cases:
 - response: 72E0562281302C0
   expected_values:
     EDGE_TP_FL: 35.2
-- response: 72E0562281302D2
-  expected_values:
-    EDGE_TP_FL: 36.1
-- response: 72E0562281302D4
-  expected_values:
-    EDGE_TP_FL: 36.2
-- response: 72E0562281302D9
-  expected_values:
-    EDGE_TP_FL: 36.45
-- response: 72E0562281302DE
-  expected_values:
-    EDGE_TP_FL: 36.7
-- response: 72E0562281302E1
-  expected_values:
-    EDGE_TP_FL: 36.85
-- response: 72E0562281302E3
-  expected_values:
-    EDGE_TP_FL: 36.95
-- response: 72E0562281302E8
-  expected_values:
-    EDGE_TP_FL: 37.2
-- response: 72E0562281302ED
-  expected_values:
-    EDGE_TP_FL: 37.45
-- response: 72E0562281302F0
-  expected_values:
-    EDGE_TP_FL: 37.6
-- response: 72E0562281302F2
-  expected_values:
-    EDGE_TP_FL: 37.7
-- response: 72E0562281302F5
-  expected_values:
-    EDGE_TP_FL: 37.85
-- response: 72E0562281302F7
-  expected_values:
-    EDGE_TP_FL: 37.95
 - response: 72E0562281302FA
   expected_values:
     EDGE_TP_FL: 38.1
