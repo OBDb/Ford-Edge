@@ -1,0 +1,91 @@
+command_id: 7E0.220307
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8056203071CAC
+  expected_values:
+    EDGE_LPFP_DUTY: 22.3999
+- response: '7E8056203072528'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.02832
+- response: '7E8056203072539'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.0802
+- response: 7E805620307253D
+  expected_values:
+    EDGE_LPFP_DUTY: 29.09241
+- response: '7E8056203072543'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.11072
+- response: '7E8056203072545'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.11682
+- response: 7E805620307254E
+  expected_values:
+    EDGE_LPFP_DUTY: 29.14429
+- response: '7E8056203072554'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.1626
+- response: '7E8056203072556'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.1687
+- response: '7E8056203072557'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.17175
+- response: 7E805620307255E
+  expected_values:
+    EDGE_LPFP_DUTY: 29.19312
+- response: '7E8056203072565'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.21448
+- response: 7E805620307256E
+  expected_values:
+    EDGE_LPFP_DUTY: 29.24194
+- response: '7E8056203072571'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.2511
+- response: '7E8056203072578'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.27246
+- response: 7E80562030725A6
+  expected_values:
+    EDGE_LPFP_DUTY: 29.41284
+- response: 7E80562030725BB
+  expected_values:
+    EDGE_LPFP_DUTY: 29.47693
+- response: 7E80562030725BF
+  expected_values:
+    EDGE_LPFP_DUTY: 29.48914
+- response: '7E8056203072638'
+  expected_values:
+    EDGE_LPFP_DUTY: 29.8584
+- response: 7E805620307265B
+  expected_values:
+    EDGE_LPFP_DUTY: 29.96521
+- response: '7E8056203072689'
+  expected_values:
+    EDGE_LPFP_DUTY: 30.10559
+- response: 7E80562030726D6
+  expected_values:
+    EDGE_LPFP_DUTY: 30.34058
+- response: 7E80562030726E1
+  expected_values:
+    EDGE_LPFP_DUTY: 30.37415
+- response: 7E80562030726F9
+  expected_values:
+    EDGE_LPFP_DUTY: 30.44739
+- response: 7E805620307270B
+  expected_values:
+    EDGE_LPFP_DUTY: 30.50232
+- response: 7E80562030727A8
+  expected_values:
+    EDGE_LPFP_DUTY: 30.98145
+- response: 7E80562030727FA
+  expected_values:
+    EDGE_LPFP_DUTY: 31.23169
+- response: '7E8056203072887'
+  expected_values:
+    EDGE_LPFP_DUTY: 31.66199
+- response: 7E80562030728CC
+  expected_values:
+    EDGE_LPFP_DUTY: 31.87256

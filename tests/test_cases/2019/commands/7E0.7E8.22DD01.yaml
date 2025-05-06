@@ -1,0 +1,28 @@
+command_id: 7E0.7E8.22DD01
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80662DD01025AC6
+  expected_values:
+    EDGE_ODO: 154310
+- response: 7E80662DD01025B4C
+  expected_values:
+    EDGE_ODO: 154444
+- response: 7E80662DD01025B4D
+  expected_values:
+    EDGE_ODO: 154445
+- response: 7E80662DD01025B4E
+  expected_values:
+    EDGE_ODO: 154446
+- response: 7E80662DD01025B4F
+  expected_values:
+    EDGE_ODO: 154447
+- response: 7E80662DD01025B50
+  expected_values:
+    EDGE_ODO: 154448
+- response: 7E80662DD01025B51
+  expected_values:
+    EDGE_ODO: 154449
+- response: 7E80662DD01025B52
+  expected_values:
+    EDGE_ODO: 154450
