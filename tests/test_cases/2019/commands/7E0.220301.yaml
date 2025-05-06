@@ -1,0 +1,88 @@
+command_id: 7E0.220301
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E8056203010197'
+  expected_values:
+    EDGE_MAP_V: 0.39746
+- response: 7E80562030101C9
+  expected_values:
+    EDGE_MAP_V: 0.44629
+- response: 7E80562030102A3
+  expected_values:
+    EDGE_MAP_V: 0.65918
+- response: 7E80562030102A5
+  expected_values:
+    EDGE_MAP_V: 0.66113
+- response: 7E80562030102C2
+  expected_values:
+    EDGE_MAP_V: 0.68945
+- response: 7E80562030102E5
+  expected_values:
+    EDGE_MAP_V: 0.72363
+- response: '7E8056203010303'
+  expected_values:
+    EDGE_MAP_V: 0.75293
+- response: 7E805620301034D
+  expected_values:
+    EDGE_MAP_V: 0.8252
+- response: '7E8056203010369'
+  expected_values:
+    EDGE_MAP_V: 0.85254
+- response: 7E805620301036C
+  expected_values:
+    EDGE_MAP_V: 0.85547
+- response: '7E8056203010373'
+  expected_values:
+    EDGE_MAP_V: 0.8623
+- response: 7E805620301037A
+  expected_values:
+    EDGE_MAP_V: 0.86914
+- response: '7E8056203010394'
+  expected_values:
+    EDGE_MAP_V: 0.89453
+- response: 7E80562030103B2
+  expected_values:
+    EDGE_MAP_V: 0.92383
+- response: 7E80562030103B3
+  expected_values:
+    EDGE_MAP_V: 0.9248
+- response: 7E80562030103C8
+  expected_values:
+    EDGE_MAP_V: 0.94531
+- response: 7E80562030103D0
+  expected_values:
+    EDGE_MAP_V: 0.95312
+- response: 7E80562030103D4
+  expected_values:
+    EDGE_MAP_V: 0.95703
+- response: 7E805620301058F
+  expected_values:
+    EDGE_MAP_V: 1.38965
+- response: 7E805620301059D
+  expected_values:
+    EDGE_MAP_V: 1.40332
+- response: 7E80562030105A2
+  expected_values:
+    EDGE_MAP_V: 1.4082
+- response: 7E80562030105AA
+  expected_values:
+    EDGE_MAP_V: 1.41602
+- response: 7E80562030105C1
+  expected_values:
+    EDGE_MAP_V: 1.43848
+- response: 7E805620301061B
+  expected_values:
+    EDGE_MAP_V: 1.52637
+- response: 7E805620301064F
+  expected_values:
+    EDGE_MAP_V: 1.57715
+- response: 7E80562030106FF
+  expected_values:
+    EDGE_MAP_V: 1.74902
+- response: '7E8056203010701'
+  expected_values:
+    EDGE_MAP_V: 1.75098
+- response: 7E80562030107BF
+  expected_values:
+    EDGE_MAP_V: 1.93652

@@ -1,0 +1,64 @@
+command_id: 7E0.22033E
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562033E3174
+  expected_values:
+    EDGE_TIP_ABS: 14.00736
+- response: 7E80562033E3197
+  expected_values:
+    EDGE_TIP_ABS: 14.04608
+- response: 7E80562033E31AF
+  expected_values:
+    EDGE_TIP_ABS: 14.07264
+- response: 7E80562033E31C6
+  expected_values:
+    EDGE_TIP_ABS: 14.09808
+- response: 7E80562033E31D2
+  expected_values:
+    EDGE_TIP_ABS: 14.11136
+- response: 7E80562033E31DE
+  expected_values:
+    EDGE_TIP_ABS: 14.12464
+- response: 7E80562033E31F5
+  expected_values:
+    EDGE_TIP_ABS: 14.15009
+- response: 7E80562033E3201
+  expected_values:
+    EDGE_TIP_ABS: 14.16336
+- response: 7E80562033E320D
+  expected_values:
+    EDGE_TIP_ABS: 14.17664
+- response: 7E80562033E3224
+  expected_values:
+    EDGE_TIP_ABS: 14.20209
+- response: 7E80562033E3230
+  expected_values:
+    EDGE_TIP_ABS: 14.21537
+- response: 7E80562033E325F
+  expected_values:
+    EDGE_TIP_ABS: 14.26737
+- response: 7E80562033E3356
+  expected_values:
+    EDGE_TIP_ABS: 14.54065
+- response: 7E80562033E33B4
+  expected_values:
+    EDGE_TIP_ABS: 14.64466
+- response: 7E80562033E3470
+  expected_values:
+    EDGE_TIP_ABS: 14.85267
+- response: 7E80562033E36D3
+  expected_values:
+    EDGE_TIP_ABS: 15.52869
+- response: 7E80562033E3988
+  expected_values:
+    EDGE_TIP_ABS: 16.29545
+- response: 7E80562033E39B7
+  expected_values:
+    EDGE_TIP_ABS: 16.34745
+- response: 7E80562033E40E0
+  expected_values:
+    EDGE_TIP_ABS: 18.37553
+- response: 7E80562033E4103
+  expected_values:
+    EDGE_TIP_ABS: 18.41425

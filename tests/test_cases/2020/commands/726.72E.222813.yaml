@@ -5,21 +5,12 @@ test_cases:
 - response: '72E056228130345'
   expected_values:
     EDGE_TP_FL: 41.85
-- response: '72E056228130361'
-  expected_values:
-    EDGE_TP_FL: 43.25
-- response: '72E056228130363'
-  expected_values:
-    EDGE_TP_FL: 43.35
 - response: '72E056228130366'
   expected_values:
     EDGE_TP_FL: 43.5
 - response: '72E056228130368'
   expected_values:
     EDGE_TP_FL: 43.6
-- response: 72E05622813036B
-  expected_values:
-    EDGE_TP_FL: 43.75
 - response: 72E05622813036D
   expected_values:
     EDGE_TP_FL: 43.85

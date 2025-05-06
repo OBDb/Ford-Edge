@@ -1,0 +1,79 @@
+command_id: 7E0.220324
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E805620324008A
+  expected_values:
+    EDGE_HPFP_V: 0.67449
+- response: 7E805620324008C
+  expected_values:
+    EDGE_HPFP_V: 0.68426
+- response: 7E805620324008D
+  expected_values:
+    EDGE_HPFP_V: 0.68915
+- response: 7E805620324008E
+  expected_values:
+    EDGE_HPFP_V: 0.69404
+- response: '7E8056203240094'
+  expected_values:
+    EDGE_HPFP_V: 0.72336
+- response: 7E80562032400A4
+  expected_values:
+    EDGE_HPFP_V: 0.80156
+- response: 7E80562032400C9
+  expected_values:
+    EDGE_HPFP_V: 0.9824
+- response: 7E80562032400E1
+  expected_values:
+    EDGE_HPFP_V: 1.09971
+- response: 7E80562032400E8
+  expected_values:
+    EDGE_HPFP_V: 1.13392
+- response: 7E80562032400F1
+  expected_values:
+    EDGE_HPFP_V: 1.17791
+- response: '7E8056203240100'
+  expected_values:
+    EDGE_HPFP_V: 1.25122
+- response: '7E8056203240104'
+  expected_values:
+    EDGE_HPFP_V: 1.27077
+- response: '7E8056203240108'
+  expected_values:
+    EDGE_HPFP_V: 1.29032
+- response: 7E805620324010A
+  expected_values:
+    EDGE_HPFP_V: 1.3001
+- response: '7E8056203240148'
+  expected_values:
+    EDGE_HPFP_V: 1.60313
+- response: 7E805620324014D
+  expected_values:
+    EDGE_HPFP_V: 1.62757
+- response: '7E8056203240171'
+  expected_values:
+    EDGE_HPFP_V: 1.80352
+- response: '7E8056203240186'
+  expected_values:
+    EDGE_HPFP_V: 1.90616
+- response: '7E8056203240192'
+  expected_values:
+    EDGE_HPFP_V: 1.96481
+- response: 7E80562032401E0
+  expected_values:
+    EDGE_HPFP_V: 2.34604
+- response: '7E8056203240217'
+  expected_values:
+    EDGE_HPFP_V: 2.61486
+- response: 7E805620324021C
+  expected_values:
+    EDGE_HPFP_V: 2.6393
+- response: '7E8056203240251'
+  expected_values:
+    EDGE_HPFP_V: 2.89834
+- response: '7E8056203240263'
+  expected_values:
+    EDGE_HPFP_V: 2.98631
+- response: 7E805620324027B
+  expected_values:
+    EDGE_HPFP_V: 3.10362

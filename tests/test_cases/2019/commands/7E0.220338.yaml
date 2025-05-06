@@ -1,7 +1,7 @@
-command_id: 7E0.010B
+command_id: 7E0.220338
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E803410B31
+- response: 7E80562033801C0
   expected_values:
-    MAP: 49
+    EDGE_ETC_TRIM_LEARNED: 0.875

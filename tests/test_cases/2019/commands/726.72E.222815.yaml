@@ -1,0 +1,34 @@
+command_id: 726.72E.222815
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 72E05622815029D
+  expected_values:
+    EDGE_TP_RRO: 33.45
+- response: 72E0562281502A2
+  expected_values:
+    EDGE_TP_RRO: 33.7
+- response: 72E0562281502A7
+  expected_values:
+    EDGE_TP_RRO: 33.95
+- response: 72E0562281502AC
+  expected_values:
+    EDGE_TP_RRO: 34.2
+- response: 72E0562281502B1
+  expected_values:
+    EDGE_TP_RRO: 34.45
+- response: 72E0562281502B4
+  expected_values:
+    EDGE_TP_RRO: 34.6
+- response: 72E0562281502B6
+  expected_values:
+    EDGE_TP_RRO: 34.7
+- response: 72E0562281502B9
+  expected_values:
+    EDGE_TP_RRO: 34.85
+- response: 72E0562281502BB
+  expected_values:
+    EDGE_TP_RRO: 34.95
+- response: 72E0562281502BE
+  expected_values:
+    EDGE_TP_RRO: 35.1

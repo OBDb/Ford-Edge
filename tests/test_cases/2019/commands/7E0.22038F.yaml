@@ -1,0 +1,88 @@
+command_id: 7E0.22038F
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562038F0E66
+  expected_values:
+    EDGE_ECT: 57.59375
+- response: 7E80562038F0FE3
+  expected_values:
+    EDGE_ECT: 63.54688
+- response: 7E80562038F1161
+  expected_values:
+    EDGE_ECT: 69.51562
+- response: 7E80562038F12B5
+  expected_values:
+    EDGE_ECT: 74.82812
+- response: 7E80562038F13A9
+  expected_values:
+    EDGE_ECT: 78.64062
+- response: 7E80562038F149C
+  expected_values:
+    EDGE_ECT: 82.4375
+- response: 7E80562038F14C5
+  expected_values:
+    EDGE_ECT: 83.07812
+- response: 7E80562038F14D4
+  expected_values:
+    EDGE_ECT: 83.3125
+- response: 7E80562038F1509
+  expected_values:
+    EDGE_ECT: 84.14062
+- response: 7E80562038F150E
+  expected_values:
+    EDGE_ECT: 84.21875
+- response: 7E80562038F151A
+  expected_values:
+    EDGE_ECT: 84.40625
+- response: 7E80562038F1534
+  expected_values:
+    EDGE_ECT: 84.8125
+- response: 7E80562038F1536
+  expected_values:
+    EDGE_ECT: 84.84375
+- response: 7E80562038F1538
+  expected_values:
+    EDGE_ECT: 84.875
+- response: 7E80562038F1540
+  expected_values:
+    EDGE_ECT: 85
+- response: 7E80562038F154E
+  expected_values:
+    EDGE_ECT: 85.21875
+- response: 7E80562038F1561
+  expected_values:
+    EDGE_ECT: 85.51562
+- response: 7E80562038F1570
+  expected_values:
+    EDGE_ECT: 85.75
+- response: 7E80562038F1581
+  expected_values:
+    EDGE_ECT: 86.01562
+- response: 7E80562038F1585
+  expected_values:
+    EDGE_ECT: 86.07812
+- response: 7E80562038F1586
+  expected_values:
+    EDGE_ECT: 86.09375
+- response: 7E80562038F1587
+  expected_values:
+    EDGE_ECT: 86.10938
+- response: 7E80562038F15AE
+  expected_values:
+    EDGE_ECT: 86.71875
+- response: 7E80562038F15B0
+  expected_values:
+    EDGE_ECT: 86.75
+- response: 7E80562038F15BA
+  expected_values:
+    EDGE_ECT: 86.90625
+- response: 7E80562038F15C7
+  expected_values:
+    EDGE_ECT: 87.10938
+- response: 7E80562038F15DB
+  expected_values:
+    EDGE_ECT: 87.42188
+- response: 7E80562038F1606
+  expected_values:
+    EDGE_ECT: 88.09375
