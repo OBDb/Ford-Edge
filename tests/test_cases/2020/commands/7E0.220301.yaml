@@ -2,15 +2,15 @@ command_id: 7E0.220301
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E805620301014B
+- response: '7E8056203010142'
   expected_values:
-    EDGE_MAP_V: 0.32324
-- response: '7E8056203010201'
+    EDGE_MAP_V: 0.31445
+- response: 7E80562030102FB
   expected_values:
-    EDGE_MAP_V: 0.50098
-- response: 7E80562030105EC
+    EDGE_MAP_V: 0.74512
+- response: '7E8056203010600'
   expected_values:
-    EDGE_MAP_V: 1.48047
-- response: '7E8056203010785'
+    EDGE_MAP_V: 1.5
+- response: 7E8056203010B1B
   expected_values:
-    EDGE_MAP_V: 1.87988
+    EDGE_MAP_V: 2.77637

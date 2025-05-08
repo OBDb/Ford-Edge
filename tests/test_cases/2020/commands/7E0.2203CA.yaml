@@ -2,9 +2,9 @@ command_id: 7E0.2203CA
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E8046203CA43
+- response: 7E8046203CA39
   expected_values:
-    EDGE_MCT: 67
-- response: 7E8046203CA4D
+    EDGE_MCT: 57
+- response: 7E8046203CA57
   expected_values:
-    EDGE_MCT: 77
+    EDGE_MCT: 87
