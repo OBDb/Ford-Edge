@@ -2,12 +2,15 @@ command_id: 7E0.22038F
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E80562038F1059
+- response: 7E80562038F0A66
   expected_values:
-    EDGE_ECT: 65.39062
-- response: 7E80562038F13F4
+    EDGE_ECT: 41.59375
+- response: 7E80562038F16FE
   expected_values:
-    EDGE_ECT: 79.8125
+    EDGE_ECT: 91.96875
 - response: 7E80562038F1700
   expected_values:
     EDGE_ECT: 92
+- response: 7E80562038F171C
+  expected_values:
+    EDGE_ECT: 92.4375

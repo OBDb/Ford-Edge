@@ -2,27 +2,12 @@ command_id: 7E0.220316
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E805620316286F
+- response: '7E8056203162410'
   expected_values:
-    EDGE_VCT_INT_DUTY: 31.58874
-- response: 7E8056203162A87
+    EDGE_VCT_INT_DUTY: 28.17383
+- response: 7E8056203162EFE
   expected_values:
-    EDGE_VCT_INT_DUTY: 33.22449
-- response: 7E8056203162BD9
-  expected_values:
-    EDGE_VCT_INT_DUTY: 34.25598
-- response: 7E8056203162C65
-  expected_values:
-    EDGE_VCT_INT_DUTY: 34.68323
-- response: 7E8056203162D45
-  expected_values:
-    EDGE_VCT_INT_DUTY: 35.36682
-- response: 7E8056203162E14
-  expected_values:
-    EDGE_VCT_INT_DUTY: 35.99854
-- response: 7E8056203162E20
-  expected_values:
-    EDGE_VCT_INT_DUTY: 36.03516
+    EDGE_VCT_INT_DUTY: 36.71265
 - response: '7E8056203163718'
   expected_values:
     EDGE_VCT_INT_DUTY: 43.04199
