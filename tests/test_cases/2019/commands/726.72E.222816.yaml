@@ -5,6 +5,6 @@ test_cases:
 - response: '72E056228160289'
   expected_values:
     EDGE_TP_RLO: 32.45
-- response: 72E0562281602BB
+- response: 72E0562281602CF
   expected_values:
-    EDGE_TP_RLO: 34.95
+    EDGE_TP_RLO: 35.95

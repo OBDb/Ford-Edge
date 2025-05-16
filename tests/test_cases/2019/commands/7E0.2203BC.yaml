@@ -5,9 +5,9 @@ test_cases:
 - response: 7E8056203BC0000
   expected_values:
     EDGE_VCT_INT_DES: 0
-- response: 7E8056203BCFDE5
+- response: 7E8056203BCFDFE
   expected_values:
     EDGE_VCT_INT_DES: 0
-- response: 7E8056203BCFE27
+- response: 7E8056203BCFF08
   expected_values:
     EDGE_VCT_INT_DES: 0

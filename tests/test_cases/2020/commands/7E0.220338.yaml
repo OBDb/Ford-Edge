@@ -1,0 +1,13 @@
+command_id: 7E0.220338
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E8056203380004'
+  expected_values:
+    EDGE_ETC_TRIM_LEARNED: 0.00781
+- response: 7E805620338FFE4
+  expected_values:
+    EDGE_ETC_TRIM_LEARNED: 90
+- response: 7E805620338FFFC
+  expected_values:
+    EDGE_ETC_TRIM_LEARNED: 90

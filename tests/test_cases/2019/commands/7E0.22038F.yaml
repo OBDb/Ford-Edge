@@ -5,9 +5,9 @@ test_cases:
 - response: 7E80562038F0E66
   expected_values:
     EDGE_ECT: 57.59375
-- response: 7E80562038F0FE3
+- response: 7E80562038F15FE
   expected_values:
-    EDGE_ECT: 63.54688
-- response: 7E80562038F1606
+    EDGE_ECT: 87.96875
+- response: 7E80562038F1604
   expected_values:
-    EDGE_ECT: 88.09375
+    EDGE_ECT: 88.0625

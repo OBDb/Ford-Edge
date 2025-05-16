@@ -2,6 +2,12 @@ command_id: 726.72E.222815
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: '72E056228150316'
+  expected_values:
+    EDGE_TP_RRO: 39.5
+- response: 72E05622815031B
+  expected_values:
+    EDGE_TP_RRO: 39.75
 - response: '72E056228150340'
   expected_values:
     EDGE_TP_RRO: 41.6

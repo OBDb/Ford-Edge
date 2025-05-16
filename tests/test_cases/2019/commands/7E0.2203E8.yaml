@@ -2,6 +2,15 @@ command_id: 7E0.2203E8
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7E8056203E8C000
+  expected_values:
+    EDGE_OAR: 1
+- response: 7E8056203E8C789
+  expected_values:
+    EDGE_OAR: 1
+- response: 7E8056203E8C97E
+  expected_values:
+    EDGE_OAR: 1
 - response: 7E8056203E8CED2
   expected_values:
     EDGE_OAR: 1
