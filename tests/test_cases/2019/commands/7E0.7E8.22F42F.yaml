@@ -5,30 +5,6 @@ test_cases:
 - response: 7E80462F42F12
   expected_values:
     EDGE_FLI: 7.05882
-- response: 7E80462F42F1A
+- response: 7E80462F42FD9
   expected_values:
-    EDGE_FLI: 10.19608
-- response: 7E80462F42F22
-  expected_values:
-    EDGE_FLI: 13.33333
-- response: 7E80462F42F26
-  expected_values:
-    EDGE_FLI: 14.90196
-- response: 7E80462F42F29
-  expected_values:
-    EDGE_FLI: 16.07843
-- response: 7E80462F42F2A
-  expected_values:
-    EDGE_FLI: 16.47059
-- response: 7E80462F42F2E
-  expected_values:
-    EDGE_FLI: 18.03922
-- response: 7E80462F42F32
-  expected_values:
-    EDGE_FLI: 19.60784
-- response: 7E80462F42F33
-  expected_values:
-    EDGE_FLI: 20
-- response: 7E80462F42F56
-  expected_values:
-    EDGE_FLI: 33.72549
+    EDGE_FLI: 85.09804

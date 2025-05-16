@@ -2,15 +2,15 @@ command_id: 7E0.220317
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E8056203171B7D
+- response: '7E8056203171607'
   expected_values:
-    EDGE_VCT_EXH_DUTY: 21.47522
+    EDGE_VCT_EXH_DUTY: 17.20886
 - response: 7E8056203172CFF
   expected_values:
     EDGE_VCT_EXH_DUTY: 35.1532
 - response: '7E8056203173100'
   expected_values:
     EDGE_VCT_EXH_DUTY: 38.28125
-- response: 7E8056203174FE3
+- response: 7E805620317541E
   expected_values:
-    EDGE_VCT_EXH_DUTY: 62.4115
+    EDGE_VCT_EXH_DUTY: 65.71655

@@ -11,6 +11,6 @@ test_cases:
 - response: 7E80562030F75FF
   expected_values:
     EDGE_CL: 0.92185
-- response: 7E80562030F8E65
+- response: 7E80562030F8E18
   expected_values:
-    EDGE_CL: 1.11246
+    EDGE_CL: 1.11011

@@ -5,6 +5,6 @@ test_cases:
 - response: 7E80562033C0122
   expected_values:
     EDGE_TIP_V: 1.41602
-- response: 7E80562033C0189
+- response: 7E80562033C01D6
   expected_values:
-    EDGE_TIP_V: 1.91895
+    EDGE_TIP_V: 2.29492

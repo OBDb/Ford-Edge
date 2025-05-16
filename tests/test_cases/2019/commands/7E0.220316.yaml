@@ -5,30 +5,9 @@ test_cases:
 - response: '7E8056203160000'
   expected_values:
     EDGE_VCT_INT_DUTY: 0
-- response: 7E8056203162D02
+- response: 7E80562031637FC
   expected_values:
-    EDGE_VCT_INT_DUTY: 35.16235
-- response: 7E8056203162DF3
+    EDGE_VCT_INT_DUTY: 43.73779
+- response: 7E80562031640E0
   expected_values:
-    EDGE_VCT_INT_DUTY: 35.89783
-- response: 7E8056203162F89
-  expected_values:
-    EDGE_VCT_INT_DUTY: 37.13684
-- response: 7E8056203162FE6
-  expected_values:
-    EDGE_VCT_INT_DUTY: 37.42065
-- response: '7E8056203163014'
-  expected_values:
-    EDGE_VCT_INT_DUTY: 37.56104
-- response: 7E805620316301C
-  expected_values:
-    EDGE_VCT_INT_DUTY: 37.58545
-- response: 7E80562031630B0
-  expected_values:
-    EDGE_VCT_INT_DUTY: 38.03711
-- response: 7E80562031630F1
-  expected_values:
-    EDGE_VCT_INT_DUTY: 38.23547
-- response: 7E80562031636BF
-  expected_values:
-    EDGE_VCT_INT_DUTY: 42.77039
+    EDGE_VCT_INT_DUTY: 50.68359

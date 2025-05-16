@@ -5,12 +5,12 @@ test_cases:
 - response: 7E80562033E3174
   expected_values:
     EDGE_TIP_ABS: 14.00736
-- response: 7E80562033E31F5
-  expected_values:
-    EDGE_TIP_ABS: 14.15009
 - response: 7E80562033E3201
   expected_values:
     EDGE_TIP_ABS: 14.16336
-- response: 7E80562033E4103
+- response: 7E80562033E35FF
   expected_values:
-    EDGE_TIP_ABS: 18.41425
+    EDGE_TIP_ABS: 15.29413
+- response: 7E80562033E4FE2
+  expected_values:
+    EDGE_TIP_ABS: 22.62642

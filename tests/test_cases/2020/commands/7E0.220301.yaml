@@ -5,12 +5,12 @@ test_cases:
 - response: '7E8056203010142'
   expected_values:
     EDGE_MAP_V: 0.31445
-- response: 7E80562030102FB
+- response: 7E80562030102FE
   expected_values:
-    EDGE_MAP_V: 0.74512
-- response: '7E8056203010600'
+    EDGE_MAP_V: 0.74805
+- response: '7E8056203010300'
   expected_values:
-    EDGE_MAP_V: 1.5
+    EDGE_MAP_V: 0.75
 - response: 7E8056203010B1B
   expected_values:
     EDGE_MAP_V: 2.77637
