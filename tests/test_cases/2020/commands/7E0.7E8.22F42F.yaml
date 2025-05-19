@@ -5,6 +5,6 @@ test_cases:
 - response: 7E80462F42F20
   expected_values:
     EDGE_FLI: 12.54902
-- response: 7E80462F42FD0
+- response: 7E80462F42FDF
   expected_values:
-    EDGE_FLI: 81.56863
+    EDGE_FLI: 87.45098
