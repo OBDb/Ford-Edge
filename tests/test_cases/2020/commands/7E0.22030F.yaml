@@ -1,6 +1,4 @@
 command_id: 7E0.22030F
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80562030F6982
   expected_values:
@@ -11,6 +9,31 @@ test_cases:
 - response: 7E80562030F75FF
   expected_values:
     EDGE_CL: 0.92185
-- response: 7E80562030F8E18
+- response: 7E80562030FAFBA
   expected_values:
-    EDGE_CL: 1.11011
+    EDGE_CL: 1.37286
+- response: |-
+    > 7E0.22030F
+    7E80562030F64E5
+  expected_values:
+    EDGE_CL: 0.78824
+- response: |-
+    > 7E0.22030F
+    7E80562030F6650
+  expected_values:
+    EDGE_CL: 0.79932
+- response: |-
+    > 7E0.22030F
+    7E80562030F6B1D
+  expected_values:
+    EDGE_CL: 0.83682
+- response: |-
+    > 7E0.22030F
+    7E80562030F71DC
+  expected_values:
+    EDGE_CL: 0.88953
+- response: |-
+    > 7E0.22030F
+    7E80562030F7F42
+  expected_values:
+    EDGE_CL: 0.9942

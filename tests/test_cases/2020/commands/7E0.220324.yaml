@@ -1,16 +1,34 @@
 command_id: 7E0.220324
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E80562032400B5
+- response: 7E80562032400AC
   expected_values:
-    EDGE_HPFP_V: 0.88465
+    EDGE_HPFP_V: 0.84066
 - response: 7E80562032400FF
   expected_values:
     EDGE_HPFP_V: 1.24633
 - response: '7E8056203240100'
   expected_values:
     EDGE_HPFP_V: 1.25122
-- response: '7E8056203240202'
+- response: '7E8056203240201'
   expected_values:
-    EDGE_HPFP_V: 2.51222
+    EDGE_HPFP_V: 2.50733
+- response: |-
+    > 7E0.220324
+    7E80562032400A3
+  expected_values:
+    EDGE_HPFP_V: 0.79668
+- response: |-
+    > 7E0.220324
+    7E80562032400AF
+  expected_values:
+    EDGE_HPFP_V: 0.85533
+- response: |-
+    > 7E0.220324
+    7E80562032400B0
+  expected_values:
+    EDGE_HPFP_V: 0.86022
+- response: |-
+    > 7E0.220324
+    7E8056203240110
+  expected_values:
+    EDGE_HPFP_V: 1.32942

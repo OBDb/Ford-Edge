@@ -1,0 +1,26 @@
+command_id: 7E0.220317
+test_cases:
+- response: '7E8056203170000'
+  expected_values:
+    EDGE_VCT_EXH_DUTY: 0
+- response: 7E80562031732F3
+  expected_values:
+    EDGE_VCT_EXH_DUTY: 39.80408
+- response: 7E805620317373F
+  expected_values:
+    EDGE_VCT_EXH_DUTY: 43.16101
+- response: '7E8056203173889'
+  expected_values:
+    EDGE_VCT_EXH_DUTY: 44.16809
+- response: 7E80562031739AD
+  expected_values:
+    EDGE_VCT_EXH_DUTY: 45.0592
+- response: 7E80562031739FA
+  expected_values:
+    EDGE_VCT_EXH_DUTY: 45.29419
+- response: 7E8056203173D59
+  expected_values:
+    EDGE_VCT_EXH_DUTY: 47.92786
+- response: 7E8056203173DA5
+  expected_values:
+    EDGE_VCT_EXH_DUTY: 48.15979

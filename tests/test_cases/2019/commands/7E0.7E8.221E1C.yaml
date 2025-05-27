@@ -1,13 +1,8 @@
 command_id: 7E0.7E8.221E1C
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E805621E1C0380
+- response: 7E805621E1C037E
   expected_values:
-    EDGE_TOT: 56
-- response: 7E805621E1C0501
-  expected_values:
-    EDGE_TOT: 80.0625
+    EDGE_TOT: 55.875
 - response: 7E805621E1C05FC
   expected_values:
     EDGE_TOT: 95.75

@@ -1,0 +1,7 @@
+command_id: 7E0.0154
+test_cases:
+- response: |-
+    > 7E0.7E8.0154
+    7E8044154FE0E
+  expected_values:
+    EVAP_VP_WIDE: -0.498

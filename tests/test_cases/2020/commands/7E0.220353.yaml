@@ -1,28 +1,18 @@
 command_id: 7E0.220353
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: '7E8056203530186'
   expected_values:
     EDGE_BARO: 14.1396
-- response: '7E8056203530187'
+- response: '7E8056203530190'
   expected_values:
-    EDGE_BARO: 14.17585
-- response: '7E8056203530188'
+    EDGE_BARO: 14.50215
+- response: |-
+    > 7E0.220353
+    7E8056203530185
   expected_values:
-    EDGE_BARO: 14.21211
-- response: '7E8056203530189'
+    EDGE_BARO: 14.10334
+- response: |-
+    > 7E0.220353
+    7E805620353018F
   expected_values:
-    EDGE_BARO: 14.24836
-- response: 7E805620353018A
-  expected_values:
-    EDGE_BARO: 14.28462
-- response: 7E805620353018B
-  expected_values:
-    EDGE_BARO: 14.32087
-- response: 7E805620353018C
-  expected_values:
-    EDGE_BARO: 14.35713
-- response: 7E805620353018D
-  expected_values:
-    EDGE_BARO: 14.39339
+    EDGE_BARO: 14.4659

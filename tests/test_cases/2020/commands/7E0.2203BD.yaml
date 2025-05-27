@@ -1,13 +1,26 @@
 command_id: 7E0.2203BD
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E8056203BD0000
   expected_values:
     EDGE_CL_LC: 0
-- response: 7E8056203BDFF36
+- response: 7E8056203BDFF13
   expected_values:
     EDGE_CL_LC: 5
 - response: 7E8056203BDFFC3
   expected_values:
     EDGE_CL_LC: 5
+- response: |-
+    > 7E0.2203BD
+    7E8056203BD0000
+  expected_values:
+    EDGE_CL_LC: 0
+- response: |-
+    > 7E0.2203BD
+    7E8056203BD0044
+  expected_values:
+    EDGE_CL_LC: 0.0083
+- response: |-
+    > 7E0.2203BD
+    7E8056203BD0048
+  expected_values:
+    EDGE_CL_LC: 0.00879

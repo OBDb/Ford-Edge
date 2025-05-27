@@ -1,6 +1,4 @@
 command_id: 7E0.2203DC
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E8056203DC01B4
   expected_values:
@@ -11,6 +9,26 @@ test_cases:
 - response: 7E8056203DC0200
   expected_values:
     EDGE_HPFP_DES: 742.59323
-- response: 7E8056203DC091E
+- response: 7E8056203DC0908
   expected_values:
-    EDGE_HPFP_DES: 3385.18084
+    EDGE_HPFP_DES: 3353.27254
+- response: |-
+    > 7E0.2203DC
+    7E8056203DC015C
+  expected_values:
+    EDGE_HPFP_DES: 504.73133
+- response: |-
+    > 7E0.2203DC
+    7E8056203DC01B0
+  expected_values:
+    EDGE_HPFP_DES: 626.56304
+- response: |-
+    > 7E0.2203DC
+    7E8056203DC01CF
+  expected_values:
+    EDGE_HPFP_DES: 671.52473
+- response: |-
+    > 7E0.2203DC
+    7E8056203DC0311
+  expected_values:
+    EDGE_HPFP_DES: 1138.54626
