@@ -1,10 +1,11 @@
 command_id: 7E0.7E8.22F42F
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80462F42F12
   expected_values:
     EDGE_FLI: 7.05882
-- response: 7E80462F42FD9
+- response: 7E80462F42F1A
   expected_values:
-    EDGE_FLI: 85.09804
+    EDGE_FLI: 10.19608
+- response: 7E80462F42FFB
+  expected_values:
+    EDGE_FLI: 98.43137

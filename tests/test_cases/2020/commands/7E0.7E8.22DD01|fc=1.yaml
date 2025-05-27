@@ -1,0 +1,42 @@
+command_id: 7E0.7E8.22DD01|fc=1
+test_cases:
+- response: 7E80662DD01017C8E
+  expected_values:
+    EDGE_ODO: 97422
+- response: 7E80662DD01017E2C
+  expected_values:
+    EDGE_ODO: 97836
+- response: 7E80662DD01017EFF
+  expected_values:
+    EDGE_ODO: 98047
+- response: 7E80662DD01017F00
+  expected_values:
+    EDGE_ODO: 98048
+- response: 7E80662DD0101800C
+  expected_values:
+    EDGE_ODO: 98316
+- response: |-
+    > 7E0.7E8.22DD01
+    7E80662DD01017CC0
+  expected_values:
+    EDGE_ODO: 97472
+- response: |-
+    > 7E0.7E8.22DD01
+    7E80662DD01017E2B
+  expected_values:
+    EDGE_ODO: 97835
+- response: |-
+    > 7E0.7E8.22DD01
+    7E80662DD01017F8F
+  expected_values:
+    EDGE_ODO: 98191
+- response: |-
+    > 7E0.7E8.22DD01
+    7E80662DD01017FC9
+  expected_values:
+    EDGE_ODO: 98249
+- response: |-
+    > 7E0.7E8.22DD01
+    7E80662DD0101800B
+  expected_values:
+    EDGE_ODO: 98315

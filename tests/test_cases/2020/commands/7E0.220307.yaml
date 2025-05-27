@@ -1,16 +1,39 @@
 command_id: 7E0.220307
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E8056203071F97
   expected_values:
     EDGE_LPFP_DUTY: 24.67957
-- response: 7E80562030720FE
-  expected_values:
-    EDGE_LPFP_DUTY: 25.77515
 - response: '7E8056203072100'
   expected_values:
     EDGE_LPFP_DUTY: 25.78125
-- response: 7E80562030729C3
+- response: 7E80562030722FF
   expected_values:
-    EDGE_LPFP_DUTY: 32.62634
+    EDGE_LPFP_DUTY: 27.3407
+- response: '7E8056203072945'
+  expected_values:
+    EDGE_LPFP_DUTY: 32.24182
+- response: |-
+    > 7E0.220307
+    7E8056203071EB9
+  expected_values:
+    EDGE_LPFP_DUTY: 24.00208
+- response: |-
+    > 7E0.220307
+    7E8056203071FAF
+  expected_values:
+    EDGE_LPFP_DUTY: 24.75281
+- response: |-
+    > 7E0.220307
+    7E8056203071FF4
+  expected_values:
+    EDGE_LPFP_DUTY: 24.96338
+- response: |-
+    > 7E0.220307
+    7E805620307200B
+  expected_values:
+    EDGE_LPFP_DUTY: 25.03357
+- response: |-
+    > 7E0.220307
+    7E80562030723E0
+  expected_values:
+    EDGE_LPFP_DUTY: 28.02734

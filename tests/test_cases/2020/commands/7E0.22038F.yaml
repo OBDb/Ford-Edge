@@ -1,19 +1,39 @@
 command_id: 7E0.22038F
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80562038F0704
   expected_values:
     EDGE_ECT: 28.0625
-- response: 7E80562038F0A66
+- response: 7E80562038F16FF
   expected_values:
-    EDGE_ECT: 41.59375
-- response: 7E80562038F16FE
-  expected_values:
-    EDGE_ECT: 91.96875
+    EDGE_ECT: 91.98438
 - response: 7E80562038F1700
   expected_values:
     EDGE_ECT: 92
 - response: 7E80562038F1834
   expected_values:
     EDGE_ECT: 96.8125
+- response: |-
+    > 7E0.22038F
+    7E80562038F04D3
+  expected_values:
+    EDGE_ECT: 19.29688
+- response: |-
+    > 7E0.22038F
+    7E80562038F0751
+  expected_values:
+    EDGE_ECT: 29.26562
+- response: |-
+    > 7E0.22038F
+    7E80562038F0DDF
+  expected_values:
+    EDGE_ECT: 55.48438
+- response: |-
+    > 7E0.22038F
+    7E80562038F0F54
+  expected_values:
+    EDGE_ECT: 61.3125
+- response: |-
+    > 7E0.22038F
+    7E80562038F100D
+  expected_values:
+    EDGE_ECT: 64.20312

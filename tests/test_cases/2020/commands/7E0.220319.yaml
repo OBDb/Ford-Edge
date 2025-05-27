@@ -1,13 +1,24 @@
 command_id: 7E0.220319
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: '7E8056203190001'
   expected_values:
     EDGE_VCT_EXH_ACT: 0.0625
+- response: '7E8056203190100'
+  expected_values:
+    EDGE_VCT_EXH_ACT: 16
 - response: 7E80562031901FF
   expected_values:
     EDGE_VCT_EXH_ACT: 31.9375
-- response: 7E805620319FFF2
+- response: 7E805620319FFD8
+  expected_values:
+    EDGE_VCT_EXH_ACT: 50
+- response: |-
+    > 7E0.220319
+    7E8056203190000
+  expected_values:
+    EDGE_VCT_EXH_ACT: 0
+- response: |-
+    > 7E0.220319
+    7E805620319FFFD
   expected_values:
     EDGE_VCT_EXH_ACT: 50

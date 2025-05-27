@@ -1,0 +1,8 @@
+command_id: 7E0.2203E8
+test_cases:
+- response: 7E8056203E8F4D2
+  expected_values:
+    EDGE_OAR: 1
+- response: 7E8056203E8F90A
+  expected_values:
+    EDGE_OAR: 1

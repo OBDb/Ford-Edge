@@ -1,13 +1,16 @@
 command_id: 7E0.220316
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: '7E8056203160000'
   expected_values:
     EDGE_VCT_INT_DUTY: 0
-- response: 7E8056203162EFE
+- response: 7E8056203162BFF
   expected_values:
-    EDGE_VCT_INT_DUTY: 36.71265
+    EDGE_VCT_INT_DUTY: 34.37195
 - response: '7E8056203167800'
   expected_values:
     EDGE_VCT_INT_DUTY: 93.75
+- response: |-
+    > 7E0.220316
+    7E8056203160000
+  expected_values:
+    EDGE_VCT_INT_DUTY: 0
