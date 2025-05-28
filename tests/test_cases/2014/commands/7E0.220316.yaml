@@ -3,9 +3,9 @@ test_cases:
 - response: '7E8056203160000'
   expected_values:
     EDGE_VCT_INT_DUTY: 0
-- response: 7E80562031633F0
+- response: 7E80562031645FD
   expected_values:
-    EDGE_VCT_INT_DUTY: 40.57617
-- response: 7E8056203163C2C
+    EDGE_VCT_INT_DUTY: 54.67834
+- response: '7E8056203164796'
   expected_values:
-    EDGE_VCT_INT_DUTY: 47.00928
+    EDGE_VCT_INT_DUTY: 55.92651

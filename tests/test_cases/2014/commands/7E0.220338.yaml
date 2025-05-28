@@ -3,24 +3,6 @@ test_cases:
 - response: 7E80562033803EB
   expected_values:
     EDGE_ETC_TRIM_LEARNED: 1.95898
-- response: 7E80562033803EC
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 1.96094
-- response: 7E80562033803EE
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 1.96484
-- response: 7E80562033803EF
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 1.9668
-- response: 7E80562033803F0
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 1.96875
-- response: 7E80562033803F1
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 1.9707
-- response: 7E80562033803F2
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 1.97266
 - response: 7E80562033803F7
   expected_values:
     EDGE_ETC_TRIM_LEARNED: 1.98242

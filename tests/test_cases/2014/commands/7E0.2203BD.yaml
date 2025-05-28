@@ -1,8 +1,8 @@
 command_id: 7E0.2203BD
 test_cases:
-- response: 7E8056203BD0052
+- response: 7E8056203BD0000
   expected_values:
-    EDGE_CL_LC: 0.01001
+    EDGE_CL_LC: 0
 - response: 7E8056203BDFF60
   expected_values:
     EDGE_CL_LC: 5

@@ -3,9 +3,9 @@ test_cases:
 - response: 7E80562033C012F
   expected_values:
     EDGE_TIP_V: 1.47949
-- response: 7E80562033C01F0
+- response: 7E80562033C01F4
   expected_values:
-    EDGE_TIP_V: 2.42188
+    EDGE_TIP_V: 2.44141
 - response: 7E80562033C0202
   expected_values:
     EDGE_TIP_V: 2.50977

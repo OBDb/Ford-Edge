@@ -24,9 +24,9 @@ test_cases:
     EDGE_TOT: 19
 - response: |-
     > 7DF.221E1C
-    7E805621E1C043F
+    7E805621E1C018F
   expected_values:
-    EDGE_TOT: 67.9375
+    EDGE_TOT: 24.9375
 - response: |-
     > 7DF.221E1C
     7E805621E1C0582
@@ -44,11 +44,11 @@ test_cases:
     EDGE_TOT: 19
 - response: |-
     > 7E0.7E8.221E1C
+    7E805621E1C018F
+  expected_values:
+    EDGE_TOT: 24.9375
+- response: |-
+    > 7E0.7E8.221E1C
     7E805621E1C0582
   expected_values:
     EDGE_TOT: 88.125
-- response: |-
-    > 7E0.7E8.221E1C
-    7E805621E1C058F
-  expected_values:
-    EDGE_TOT: 88.9375

@@ -3,12 +3,9 @@ test_cases:
 - response: 7E80662DD01054D91
   expected_values:
     EDGE_ODO: 347537
-- response: 7E80662DD01054D92
+- response: 7E80662DD01054DFF
   expected_values:
-    EDGE_ODO: 347538
-- response: 7E80662DD01054D93
+    EDGE_ODO: 347647
+- response: 7E80662DD01054E00
   expected_values:
-    EDGE_ODO: 347539
-- response: 7E80662DD01054DD9
-  expected_values:
-    EDGE_ODO: 347609
+    EDGE_ODO: 347648
