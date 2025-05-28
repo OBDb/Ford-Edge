@@ -9,7 +9,7 @@ test_cases:
 - response: 7E80562031901FF
   expected_values:
     EDGE_VCT_EXH_ACT: 31.9375
-- response: 7E805620319FFD8
+- response: 7E805620319FFD5
   expected_values:
     EDGE_VCT_EXH_ACT: 50
 - response: |-
