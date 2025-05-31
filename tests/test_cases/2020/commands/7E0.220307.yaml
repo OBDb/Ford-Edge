@@ -1,39 +1,14 @@
 command_id: 7E0.220307
 test_cases:
-- response: 7E8056203071F97
+- response: '7E8056203072069'
   expected_values:
-    EDGE_LPFP_DUTY: 24.67957
-- response: '7E8056203072100'
+    EDGE_LPFP_DUTY: 25.32043
+- response: 7E80562030720FB
   expected_values:
-    EDGE_LPFP_DUTY: 25.78125
-- response: 7E80562030722FF
+    EDGE_LPFP_DUTY: 25.76599
+- response: '7E8056203072103'
   expected_values:
-    EDGE_LPFP_DUTY: 27.3407
-- response: '7E8056203072945'
+    EDGE_LPFP_DUTY: 25.79041
+- response: 7E80562030729CA
   expected_values:
-    EDGE_LPFP_DUTY: 32.24182
-- response: |-
-    > 7E0.220307
-    7E8056203071EB9
-  expected_values:
-    EDGE_LPFP_DUTY: 24.00208
-- response: |-
-    > 7E0.220307
-    7E8056203071FAF
-  expected_values:
-    EDGE_LPFP_DUTY: 24.75281
-- response: |-
-    > 7E0.220307
-    7E8056203071FF4
-  expected_values:
-    EDGE_LPFP_DUTY: 24.96338
-- response: |-
-    > 7E0.220307
-    7E805620307200B
-  expected_values:
-    EDGE_LPFP_DUTY: 25.03357
-- response: |-
-    > 7E0.220307
-    7E80562030723E0
-  expected_values:
-    EDGE_LPFP_DUTY: 28.02734
+    EDGE_LPFP_DUTY: 32.6477

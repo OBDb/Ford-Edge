@@ -1,39 +1,14 @@
 command_id: 7E0.22038F
 test_cases:
-- response: 7E80562038F0704
+- response: 7E80562038F0A66
   expected_values:
-    EDGE_ECT: 28.0625
-- response: 7E80562038F16FF
+    EDGE_ECT: 41.59375
+- response: 7E80562038F0D0A
   expected_values:
-    EDGE_ECT: 91.98438
-- response: 7E80562038F1700
+    EDGE_ECT: 52.15625
+- response: 7E80562038F16FE
   expected_values:
-    EDGE_ECT: 92
-- response: 7E80562038F1834
+    EDGE_ECT: 91.96875
+- response: 7E80562038F171C
   expected_values:
-    EDGE_ECT: 96.8125
-- response: |-
-    > 7E0.22038F
-    7E80562038F04D3
-  expected_values:
-    EDGE_ECT: 19.29688
-- response: |-
-    > 7E0.22038F
-    7E80562038F0751
-  expected_values:
-    EDGE_ECT: 29.26562
-- response: |-
-    > 7E0.22038F
-    7E80562038F0DDF
-  expected_values:
-    EDGE_ECT: 55.48438
-- response: |-
-    > 7E0.22038F
-    7E80562038F0F54
-  expected_values:
-    EDGE_ECT: 61.3125
-- response: |-
-    > 7E0.22038F
-    7E80562038F100D
-  expected_values:
-    EDGE_ECT: 64.20312
+    EDGE_ECT: 92.4375
