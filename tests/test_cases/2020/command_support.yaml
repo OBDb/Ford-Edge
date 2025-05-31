@@ -107,5 +107,6 @@ unsupported_commands_by_ecu:
   7E2:
   - 7E2.7EA.22DD05|fc=1:EDGE_AAT
   7E4:
+  - 7E4.7EC.22480D|fc=1:EDGE_HVBAT_V
   - 7E4.7EC.224848|fc=1:EDGE_HVBAT_KWH
   - 7E4.7EC.22484F|fc=1:EDGE_CHRG_STATE
