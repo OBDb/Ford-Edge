@@ -3,12 +3,12 @@ test_cases:
 - response: 7E805620307310E
   expected_values:
     EDGE_LPFP_DUTY: 38.32397
-- response: 7E80562030731FE
+- response: 7E80562030731FF
   expected_values:
-    EDGE_LPFP_DUTY: 39.0564
-- response: '7E8056203073202'
+    EDGE_LPFP_DUTY: 39.05945
+- response: '7E8056203073200'
   expected_values:
-    EDGE_LPFP_DUTY: 39.0686
+    EDGE_LPFP_DUTY: 39.0625
 - response: '7E8056203073663'
   expected_values:
     EDGE_LPFP_DUTY: 42.48962

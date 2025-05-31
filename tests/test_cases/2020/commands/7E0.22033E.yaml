@@ -3,3 +3,12 @@ test_cases:
 - response: 7E80562033E31E3
   expected_values:
     EDGE_TIP_ABS: 14.13017
+- response: 7E80562033E3307
+  expected_values:
+    EDGE_TIP_ABS: 14.45325
+- response: 7E80562033E34FB
+  expected_values:
+    EDGE_TIP_ABS: 15.00646
+- response: 7E80562033E4448
+  expected_values:
+    EDGE_TIP_ABS: 19.34033
