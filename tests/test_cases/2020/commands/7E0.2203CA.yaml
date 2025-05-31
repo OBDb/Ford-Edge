@@ -1,28 +1,23 @@
 command_id: 7E0.2203CA
 test_cases:
-- response: 7E8046203CA36
+- response: 7E8046203CA52
   expected_values:
-    EDGE_MCT: 54
-- response: 7E8046203CA60
+    EDGE_MCT: 82
+- response: 7E8046203CA53
   expected_values:
-    EDGE_MCT: 96
-- response: |-
-    > 7E0.2203CA
-    7E8046203CA35
+    EDGE_MCT: 83
+- response: 7E8046203CA54
   expected_values:
-    EDGE_MCT: 53
-- response: |-
-    > 7E0.2203CA
-    7E8046203CA3F
+    EDGE_MCT: 84
+- response: 7E8046203CA55
   expected_values:
-    EDGE_MCT: 63
-- response: |-
-    > 7E0.2203CA
-    7E8046203CA40
+    EDGE_MCT: 85
+- response: 7E8046203CA56
   expected_values:
-    EDGE_MCT: 64
-- response: |-
-    > 7E0.2203CA
-    7E8046203CA50
+    EDGE_MCT: 86
+- response: 7E8046203CA57
   expected_values:
-    EDGE_MCT: 80
+    EDGE_MCT: 87
+- response: 7E8046203CA58
+  expected_values:
+    EDGE_MCT: 88

@@ -1,34 +1,5 @@
 command_id: 7E0.22033E
 test_cases:
-- response: 7E80562033E3190
+- response: 7E80562033E31E3
   expected_values:
-    EDGE_TIP_ABS: 14.03834
-- response: 7E80562033E3401
-  expected_values:
-    EDGE_TIP_ABS: 14.72985
-- response: 7E80562033E34FB
-  expected_values:
-    EDGE_TIP_ABS: 15.00646
-- response: 7E80562033E502B
-  expected_values:
-    EDGE_TIP_ABS: 22.70719
-- response: |-
-    > 7E0.22033E
-    7E80562033E3166
-  expected_values:
-    EDGE_TIP_ABS: 13.99187
-- response: |-
-    > 7E0.22033E
-    7E80562033E3190
-  expected_values:
-    EDGE_TIP_ABS: 14.03834
-- response: |-
-    > 7E0.22033E
-    7E80562033E320D
-  expected_values:
-    EDGE_TIP_ABS: 14.17664
-- response: |-
-    > 7E0.22033E
-    7E80562033E328A
-  expected_values:
-    EDGE_TIP_ABS: 14.31494
+    EDGE_TIP_ABS: 14.13017

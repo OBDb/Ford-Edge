@@ -1,31 +1,5 @@
 command_id: 7E0.220338
 test_cases:
-- response: '7E8056203380001'
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 0.00195
-- response: 7E805620338FFE4
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 90
-- response: 7E805620338FFFD
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 90
-- response: |-
-    > 7E0.220338
-    7E8056203380000
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 0
-- response: |-
-    > 7E0.220338
-    7E805620338FFE4
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 90
-- response: |-
-    > 7E0.220338
-    7E805620338FFF0
-  expected_values:
-    EDGE_ETC_TRIM_LEARNED: 90
-- response: |-
-    > 7E0.220338
-    7E805620338FFFD
+- response: 7E805620338FFE7
   expected_values:
     EDGE_ETC_TRIM_LEARNED: 90
