@@ -1,14 +1,14 @@
 command_id: 7E0.22035F
 test_cases:
-- response: 7E80562035F007D
-  expected_values:
+- expected_values:
     EDGE_RO2_V: 0.12207
-- response: 7E80562035F02FF
-  expected_values:
+  response: 7E80562035F007D
+- expected_values:
     EDGE_RO2_V: 0.74902
-- response: 7E80562035F0303
-  expected_values:
+  response: 7E80562035F02FF
+- expected_values:
     EDGE_RO2_V: 0.75293
-- response: 7E80562035F066D
-  expected_values:
+  response: 7E80562035F0303
+- expected_values:
     EDGE_RO2_V: 1
+  response: 7E80562035F066D

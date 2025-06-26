@@ -1,29 +1,29 @@
 command_id: 7E0.7E8.221E1C
 test_cases:
-- response: 7E805621E1C01C3
-  expected_values:
+- expected_values:
     EDGE_TOT: 28.1875
-- response: 7E805621E1C0200
-  expected_values:
+  response: 7E805621E1C01C3
+- expected_values:
     EDGE_TOT: 32
-- response: 7E805621E1C04FD
-  expected_values:
+  response: 7E805621E1C0200
+- expected_values:
     EDGE_TOT: 79.8125
-- response: 7E805621E1C0500
-  expected_values:
+  response: 7E805621E1C04FD
+- expected_values:
     EDGE_TOT: 80
-- response: |-
+  response: 7E805621E1C0500
+- expected_values:
+    EDGE_TOT: 28.1875
+  response: |-
     > 7DF.221E1C
     7E805621E1C01C3
-  expected_values:
-    EDGE_TOT: 28.1875
-- response: |-
+- expected_values:
+    EDGE_TOT: 63.875
+  response: |-
     > 7DF.221E1C
     7E805621E1C03FE
-  expected_values:
+- expected_values:
     EDGE_TOT: 63.875
-- response: |-
+  response: |-
     > 7E0.7E8.221E1C
     7E805621E1C03FE
-  expected_values:
-    EDGE_TOT: 63.875

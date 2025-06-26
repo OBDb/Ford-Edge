@@ -1,20 +1,20 @@
 command_id: 7E0.22031B
 test_cases:
-- response: 7E80562031B0001
-  expected_values:
+- expected_values:
     EDGE_VCT_EXH_ERR: 0.0625
-- response: 7E80562031B001B
-  expected_values:
+  response: 7E80562031B0001
+- expected_values:
     EDGE_VCT_EXH_ERR: 1.6875
-- response: 7E80562031B0036
-  expected_values:
+  response: 7E80562031B001B
+- expected_values:
     EDGE_VCT_EXH_ERR: 3.375
-- response: 7E80562031BFF0D
-  expected_values:
+  response: 7E80562031B0036
+- expected_values:
     EDGE_VCT_EXH_ERR: 50
-- response: 7E80562031BFFFD
-  expected_values:
+  response: 7E80562031BFF0D
+- expected_values:
     EDGE_VCT_EXH_ERR: 50
-- response: 7E80562031BFFFF
-  expected_values:
+  response: 7E80562031BFFFD
+- expected_values:
     EDGE_VCT_EXH_ERR: 50
+  response: 7E80562031BFFFF

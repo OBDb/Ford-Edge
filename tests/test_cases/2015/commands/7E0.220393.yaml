@@ -1,0 +1,29 @@
+command_id: 7E0.220393
+test_cases:
+- expected_values:
+    EDGE_AC_P: 84.41197
+  response: '7E8056203930123'
+- expected_values:
+    EDGE_AC_P: 89.05318
+  response: '7E8056203930133'
+- expected_values:
+    EDGE_AC_P: 89.63333
+  response: '7E8056203930135'
+- expected_values:
+    EDGE_AC_P: 90.21348
+  response: '7E8056203930137'
+- expected_values:
+    EDGE_AC_P: 93.98446
+  response: '7E8056203930144'
+- expected_values:
+    EDGE_AC_P: 95.72491
+  response: 7E805620393014A
+- expected_values:
+    EDGE_AC_P: 96.30506
+  response: 7E805620393014C
+- expected_values:
+    EDGE_AC_P: 96.88522
+  response: 7E805620393014E
+- expected_values:
+    EDGE_AC_P: 97.46537
+  response: '7E8056203930150'
