@@ -1,14 +1,11 @@
 command_id: 7E0.2203E8
 test_cases:
-- response: 7E8056203E80145
-  expected_values:
-    EDGE_OAR: 0.01984
-- response: 7E8056203E814F5
-  expected_values:
-    EDGE_OAR: 0.32745
-- response: 7E8056203E8F90A
-  expected_values:
+- expected_values:
+    EDGE_OAR: 6.1035200000000001e-05
+  response: 7E8056203E80001
+- expected_values:
+    EDGE_OAR: 0.04681
+  response: 7E8056203E802FF
+- expected_values:
     EDGE_OAR: 1
-- response: 7E8056203E8FFA4
-  expected_values:
-    EDGE_OAR: 1
+  response: 7E8056203E8FF17

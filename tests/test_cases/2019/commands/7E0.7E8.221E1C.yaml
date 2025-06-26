@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221E1C
 test_cases:
-- response: 7E805621E1C037E
-  expected_values:
+- expected_values:
     EDGE_TOT: 55.875
-- response: 7E805621E1C05FC
-  expected_values:
+  response: 7E805621E1C037E
+- expected_values:
     EDGE_TOT: 95.75
-- response: 7E805621E1C0601
-  expected_values:
+  response: 7E805621E1C05FC
+- expected_values:
     EDGE_TOT: 96.0625
+  response: 7E805621E1C0601

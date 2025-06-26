@@ -1,14 +1,14 @@
 command_id: 7E0.220393
 test_cases:
-- response: '7E8056203930226'
-  expected_values:
-    EDGE_AC_P: 159.54152
-- response: 7E80562039302FF
-  expected_values:
+- expected_values:
+    EDGE_AC_P: 136.91563
+  response: 7E80562039301D8
+- expected_values:
     EDGE_AC_P: 222.48791
-- response: '7E8056203930300'
-  expected_values:
+  response: 7E80562039302FF
+- expected_values:
     EDGE_AC_P: 222.77798
-- response: '7E8056203930407'
-  expected_values:
-    EDGE_AC_P: 299.06784
+  response: '7E8056203930300'
+- expected_values:
+    EDGE_AC_P: 297.32738
+  response: '7E8056203930401'

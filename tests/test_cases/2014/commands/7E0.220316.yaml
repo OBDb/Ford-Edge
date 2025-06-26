@@ -1,11 +1,11 @@
 command_id: 7E0.220316
 test_cases:
-- response: '7E8056203160000'
-  expected_values:
+- expected_values:
     EDGE_VCT_INT_DUTY: 0
-- response: 7E80562031645FD
-  expected_values:
-    EDGE_VCT_INT_DUTY: 54.67834
-- response: 7E8056203164CCA
-  expected_values:
-    EDGE_VCT_INT_DUTY: 59.99145
+  response: '7E8056203160000'
+- expected_values:
+    EDGE_VCT_INT_DUTY: 35.1532
+  response: 7E8056203162CFF
+- expected_values:
+    EDGE_VCT_INT_DUTY: 61.74622
+  response: 7E8056203164F09

@@ -1,11 +1,11 @@
 command_id: 7E0.22031A
 test_cases:
-- response: 7E80562031A0000
-  expected_values:
+- expected_values:
     EDGE_VCT_INT_ERR: 0
-- response: 7E80562031A0005
-  expected_values:
-    EDGE_VCT_INT_ERR: 0.3125
-- response: 7E80562031A0020
-  expected_values:
-    EDGE_VCT_INT_ERR: 2
+  response: 7E80562031A0000
+- expected_values:
+    EDGE_VCT_INT_ERR: 50
+  response: 7E80562031AFF6F
+- expected_values:
+    EDGE_VCT_INT_ERR: 50
+  response: 7E80562031AFFFF

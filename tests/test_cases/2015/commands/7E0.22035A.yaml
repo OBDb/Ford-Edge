@@ -1,0 +1,8 @@
+command_id: 7E0.22035A
+test_cases:
+- expected_values:
+    EDGE_BARO_V: 3.51906
+  response: 7E80562035A02D0
+- expected_values:
+    EDGE_BARO_V: 3.52395
+  response: 7E80562035A02D1

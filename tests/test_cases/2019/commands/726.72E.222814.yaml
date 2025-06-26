@@ -1,8 +1,8 @@
 command_id: 726.72E.222814
 test_cases:
-- response: 72E0562281402CD
-  expected_values:
+- expected_values:
     EDGE_TP_FR: 35.85
-- response: 72E0562281402FF
-  expected_values:
+  response: 72E0562281402CD
+- expected_values:
     EDGE_TP_FR: 38.35
+  response: 72E0562281402FF

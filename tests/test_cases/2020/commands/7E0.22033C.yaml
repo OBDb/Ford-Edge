@@ -1,32 +1,32 @@
 command_id: 7E0.22033C
 test_cases:
-- response: 7E80562033C012F
-  expected_values:
+- expected_values:
     EDGE_TIP_V: 1.47949
-- response: 7E80562033C0130
-  expected_values:
+  response: 7E80562033C012F
+- expected_values:
     EDGE_TIP_V: 1.48438
-- response: 7E80562033C0131
-  expected_values:
+  response: 7E80562033C0130
+- expected_values:
     EDGE_TIP_V: 1.48926
-- response: 7E80562033C0132
-  expected_values:
+  response: 7E80562033C0131
+- expected_values:
     EDGE_TIP_V: 1.49414
-- response: 7E80562033C0133
-  expected_values:
+  response: 7E80562033C0132
+- expected_values:
     EDGE_TIP_V: 1.49902
-- response: 7E80562033C0137
-  expected_values:
+  response: 7E80562033C0133
+- expected_values:
     EDGE_TIP_V: 1.51855
-- response: 7E80562033C0138
-  expected_values:
+  response: 7E80562033C0137
+- expected_values:
     EDGE_TIP_V: 1.52344
-- response: 7E80562033C013C
-  expected_values:
+  response: 7E80562033C0138
+- expected_values:
     EDGE_TIP_V: 1.54297
-- response: 7E80562033C0147
-  expected_values:
+  response: 7E80562033C013C
+- expected_values:
     EDGE_TIP_V: 1.59668
-- response: 7E80562033C0148
-  expected_values:
+  response: 7E80562033C0147
+- expected_values:
     EDGE_TIP_V: 1.60156
+  response: 7E80562033C0148
