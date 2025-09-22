@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22DD01|fc=1
+test_cases:
+- expected_values:
+    EDGE_ODO: 181836
+  response: 7E80662DD0102C64C
+- expected_values:
+    EDGE_ODO: 182015
+  response: 7E80662DD0102C6FF
+- expected_values:
+    EDGE_ODO: 182016
+  response: 7E80662DD0102C700
+- expected_values:
+    EDGE_ODO: 185344
+  response: 7E80662DD0102D400

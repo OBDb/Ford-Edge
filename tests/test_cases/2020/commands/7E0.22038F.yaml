@@ -1,14 +1,14 @@
 command_id: 7E0.22038F
 test_cases:
 - expected_values:
-    EDGE_ECT: 41.59375
-  response: 7E80562038F0A66
+    EDGE_ECT: 20.14062
+  response: 7E80562038F0509
 - expected_values:
-    EDGE_ECT: 52.15625
-  response: 7E80562038F0D0A
+    EDGE_ECT: 27.98438
+  response: 7E80562038F06FF
 - expected_values:
-    EDGE_ECT: 91.96875
-  response: 7E80562038F16FE
+    EDGE_ECT: 48
+  response: 7E80562038F0C00
 - expected_values:
     EDGE_ECT: 92.4375
   response: 7E80562038F171C
