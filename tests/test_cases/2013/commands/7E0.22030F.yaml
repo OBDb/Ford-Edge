@@ -1,0 +1,14 @@
+command_id: 7E0.22030F
+test_cases:
+- expected_values:
+    EDGE_CL: 0.96997
+  response: 7E80562030F7C28
+- expected_values:
+    EDGE_CL: 0.99008
+  response: 7E80562030F7EBB
+- expected_values:
+    EDGE_CL: 1
+  response: 7E80562030F8000
+- expected_values:
+    EDGE_CL: 1.01007
+  response: 7E80562030F814A

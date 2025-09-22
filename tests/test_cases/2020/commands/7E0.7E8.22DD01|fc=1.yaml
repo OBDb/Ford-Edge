@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.22DD01|fc=1
 test_cases:
 - expected_values:
-    EDGE_ODO: 97807
-  response: 7E80662DD01017E0F
-- expected_values:
     EDGE_ODO: 97836
   response: 7E80662DD01017E2C
 - expected_values:
-    EDGE_ODO: 98168
-  response: 7E80662DD01017F78
+    EDGE_ODO: 111104
+  response: 7E80662DD0101B200
 - expected_values:
-    EDGE_ODO: 98249
-  response: 7E80662DD01017FC9
+    EDGE_ODO: 115711
+  response: 7E80662DD0101C3FF
+- expected_values:
+    EDGE_ODO: 117522
+  response: 7E80662DD0101CB12
 - expected_values:
     EDGE_ODO: 97835
   response: |-
@@ -22,3 +22,8 @@ test_cases:
   response: |-
     > 7E0.7E8.22DD01
     7E80662DD01017F77
+- expected_values:
+    EDGE_ODO: 103224
+  response: |-
+    > 7E0.7E8.22DD01|fc=1
+    7E80662DD01019338
