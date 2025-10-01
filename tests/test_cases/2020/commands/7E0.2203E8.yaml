@@ -5,7 +5,7 @@ test_cases:
   response: 7E8056203E8C000
 - expected_values:
     EDGE_OAR: 1
-  response: 7E8056203E8D7F1
+  response: 7E8056203E8C3F3
 - expected_values:
     EDGE_OAR: 1
   response: 7E8056203E8E13E

@@ -11,4 +11,7 @@ test_cases:
   response: 728076261A500800000
 - expected_values:
     EDGE_TPMS_WARN: 1
+  response: 728076261A520800000
+- expected_values:
+    EDGE_TPMS_WARN: 1
   response: 728076261A520808000
