@@ -1,0 +1,5 @@
+command_id: 720.728.226185
+test_cases:
+- expected_values:
+    EDGE_FLI: 36.47059
+  response: 728046261855D

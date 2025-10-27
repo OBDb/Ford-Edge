@@ -4,5 +4,5 @@ test_cases:
     EDGE_ACC_POS: 0
   response: 7E80462032B00
 - expected_values:
-    EDGE_ACC_POS: 30.5
-  response: 7E80462032B3D
+    EDGE_ACC_POS: 31
+  response: 7E80462032B3E
