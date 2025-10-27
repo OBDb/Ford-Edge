@@ -4,8 +4,8 @@ test_cases:
     EDGE_VCT_EXH_DES: 0
   response: 7E8056203BB0000
 - expected_values:
-    EDGE_VCT_EXH_DES: 31.5
-  response: 7E8056203BB01F8
+    EDGE_VCT_EXH_DES: 31.8125
+  response: 7E8056203BB01FD
 - expected_values:
-    EDGE_VCT_EXH_DES: 34.0625
-  response: 7E8056203BB0221
+    EDGE_VCT_EXH_DES: 32.0625
+  response: 7E8056203BB0201

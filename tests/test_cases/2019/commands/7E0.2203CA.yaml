@@ -1,8 +1,8 @@
 command_id: 7E0.2203CA
 test_cases:
 - expected_values:
-    EDGE_MCT: 78
-  response: 7E8046203CA4E
+    EDGE_MCT: 76
+  response: 7E8046203CA4C
 - expected_values:
     EDGE_MCT: 94
   response: 7E8046203CA5E
