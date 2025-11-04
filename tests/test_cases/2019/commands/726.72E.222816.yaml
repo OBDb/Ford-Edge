@@ -1,8 +1,8 @@
 command_id: 726.72E.222816
 test_cases:
 - expected_values:
-    EDGE_TP_RLO: 32.45
-  response: '72E056228160289'
+    EDGE_TP_RLO: 29.85
+  response: '72E056228160255'
 - expected_values:
     EDGE_TP_RLO: 35.95
   response: 72E0562281602CF
