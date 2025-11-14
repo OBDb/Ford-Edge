@@ -3,11 +3,11 @@
   "signals": [
     {"id": "EDGE_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_TPMS_WARN", "path": "Tires", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Tire pressure warning indicator"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_ODO_TRIP", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Trip distance"}
   ]},
@@ -67,7 +67,7 @@
   "signals": [
     {"id": "EDGE_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left inner tire pressure"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "760", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_PARKING_BRAKE", "path": "Transmission", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus Parking Brake State"}
   ]},
@@ -83,31 +83,31 @@
   "signals": [
     {"id": "EDGE_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "1E12"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7DF", "cmd": {"22": "1E12"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_GEAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "1E23"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7DF", "cmd": {"22": "1E23"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_GEAR_SHFT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7DF", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_FLI_V2", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel level (alternative)"}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "F45C"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7DF", "cmd": {"22": "F45C"}, "freq": 30, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_EOP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0301"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "0301"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_MAP_V", "fmt": { "len": 16, "max": 5, "mul": 0.0009765625, "unit": "volts" }, "name": "Manifold absolute pressure sensor voltage", "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle."}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0307"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "0307"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_LPFP_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "Low pressure fuel pump commanded duty cycle"}
   ]},
@@ -115,11 +115,11 @@
   "signals": [
     {"id": "EDGE_CL", "fmt": { "len": 16, "max": 5, "mul": 0.0000305176, "unit": "scalar" }, "name": "Commanded lambda", "description": "The ratio of of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0316"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "0316"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_VCT_INT_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "VCT intake camshaft solenoid duty cycle"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0317"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "0317"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_VCT_EXH_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "VCT exhaust camshaft solenoid duty cycle"}
   ]},
@@ -143,7 +143,7 @@
   "signals": [
     {"id": "EDGE_HPFP_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "High pressure fuel rail sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_ACC_POS", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator Pedal Position"}
   ]},
@@ -151,11 +151,11 @@
   "signals": [
     {"id": "EDGE_ETC_TRIM_LEARNED", "fmt": { "len": 16, "max": 90, "min": -90, "mul": 0.001953125, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "033C"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "033C"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_TIP_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048828125, "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "033E"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "033E"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_TIP_ABS", "fmt": { "len": 16, "max": 60, "mul": 0.0011064263, "unit": "psi" }, "name": "Throttle inlet pressure absolute"}
   ]},
@@ -187,15 +187,15 @@
   "signals": [
     {"id": "EDGE_AAT_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Ambient air temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03BB"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "03BB"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_VCT_EXH_DES", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust cam desired"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03BC"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "03BC"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_VCT_INT_DES", "fmt": { "len": 16, "max": 0, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake cam desired"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03BD"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "03BD"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_CL_LC", "fmt": { "len": 16, "max": 5, "min": -5, "mul": 0.0001220703, "unit": "scalar" }, "name": "Closed loop lambda correction"}
   ]},
@@ -203,15 +203,15 @@
   "signals": [
     {"id": "EDGE_MCT", "fmt": { "len": 8, "max": 148.889, "unit": "celsius" }, "name": "Manifold charge temperature"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03DC"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "03DC"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_HPFP_DES", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "High pressure fuel pressure desired"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03E8"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "03E8"}, "freq": 0.25, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_OAR", "fmt": { "len": 16, "max": 1, "min": -1, "mul": 0.0000610352, "unit": "scalar" }, "name": "Octane adjust ratio"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_GEAR", "path": "Engine", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
@@ -227,11 +227,11 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_TOT", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 2, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 2, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_GEAR_SHFT", "path": "Engine", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "10": { "description": "Manual",  "value": "MANUAL" },
@@ -242,11 +242,11 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -301,7 +301,7 @@
   "signals": [
     {"id": "EDGE_HVBAT_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery state of health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "fcm1": true, "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016, 2018], "from": 2021 },
+{ "hdr": "7E6", "rax": "7EE", "fcm1": true, "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_TT", "path": "Transmission", "fmt": { "len": 16, "max": 300, "min": -300, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission temperature"}
   ]}
