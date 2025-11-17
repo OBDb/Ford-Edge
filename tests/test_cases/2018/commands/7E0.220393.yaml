@@ -1,0 +1,8 @@
+command_id: 7E0.220393
+test_cases:
+- expected_values:
+    EDGE_AC_P: 51.63344
+  response: 7E80562039300B2
+- expected_values:
+    EDGE_AC_P: 64.97691
+  response: 7E80562039300E0
