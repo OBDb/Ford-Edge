@@ -131,7 +131,7 @@
   "signals": [
     {"id": "EDGE_VCT_EXH_ACT", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust camshaft actual"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "031A"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "031A"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_VCT_INT_ERR", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake camshaft error"}
   ]},
@@ -147,7 +147,7 @@
   "signals": [
     {"id": "EDGE_ACC_POS", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator Pedal Position"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0338"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "0338"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_ETC_TRIM_LEARNED", "fmt": { "len": 16, "max": 90, "min": -90, "mul": 0.001953125, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
   ]},
@@ -159,31 +159,31 @@
   "signals": [
     {"id": "EDGE_TIP_ABS", "fmt": { "len": 16, "max": 60, "mul": 0.0011064263, "unit": "psi" }, "name": "Throttle inlet pressure absolute"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0353"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "0353"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_BARO", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 0.0362553791, "unit": "psi" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "035A"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "035A"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2021 },
   "signals": [
     {"id": "EDGE_BARO_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "035F"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "035F"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_RO2_V", "fmt": { "len": 16, "max": 1, "mul": 0.0009765625, "unit": "volts" }, "name": "Rear O2 voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "038E"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "038E"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_EVAP_V", "fmt": { "len": 16, "max": 5, "mul": 0.1998046869, "unit": "volts" }, "name": "Evaporative vapor pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "038F"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "038F"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_ECT", "fmt": { "len": 16, "max": 148.889, "min": -40, "mul": 0.015625, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0393"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2018 },
+{ "hdr": "7E0", "cmd": {"22": "0393"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2019 },
   "signals": [
     {"id": "EDGE_AC_P", "fmt": { "len": 16, "max": 1000, "min": -100, "mul": 0.2900754962, "unit": "psi" }, "name": "Air conditioning compressor pressure"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03BA"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "03BA"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_AAT_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Ambient air temperature sensor voltage"}
   ]},
