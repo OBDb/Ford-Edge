@@ -123,7 +123,7 @@
   "signals": [
     {"id": "EDGE_VCT_EXH_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "VCT exhaust camshaft solenoid duty cycle"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0318"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "0318"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2021 },
   "signals": [
     {"id": "EDGE_VCT_INT_ACT", "fmt": { "len": 16, "max": 0, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake camshaft actual"}
   ]},
@@ -139,7 +139,7 @@
   "signals": [
     {"id": "EDGE_VCT_EXH_ERR", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust camshaft error"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0324"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "0324"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2021 },
   "signals": [
     {"id": "EDGE_HPFP_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "High pressure fuel rail sensor voltage"}
   ]},
