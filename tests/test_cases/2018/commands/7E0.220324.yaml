@@ -1,0 +1,11 @@
+command_id: 7E0.220324
+test_cases:
+- expected_values:
+    EDGE_HPFP_V: 0.7478
+  response: '7E8056203240099'
+- expected_values:
+    EDGE_HPFP_V: 1.23167
+  response: 7E80562032400FC
+- expected_values:
+    EDGE_HPFP_V: 1.37341
+  response: '7E8056203240119'
