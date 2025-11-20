@@ -1,8 +1,11 @@
 command_id: 7E0.220338
 test_cases:
 - expected_values:
-    EDGE_ETC_TRIM_LEARNED: 1.51172
-  response: '7E8056203380306'
+    EDGE_ETC_TRIM_LEARNED: 1.48633
+  response: 7E80562033802F9
 - expected_values:
-    EDGE_ETC_TRIM_LEARNED: 1.72461
-  response: '7E8056203380373'
+    EDGE_ETC_TRIM_LEARNED: 1.49609
+  response: 7E80562033802FE
+- expected_values:
+    EDGE_ETC_TRIM_LEARNED: 1.50781
+  response: '7E8056203380304'

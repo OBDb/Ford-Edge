@@ -4,6 +4,9 @@ test_cases:
     EDGE_OAR: 0.18018
   response: 7E8056203E80B88
 - expected_values:
+    EDGE_OAR: 0.18903
+  response: 7E8056203E80C19
+- expected_values:
     EDGE_OAR: 0.19836
   response: 7E8056203E80CB2
 - expected_values:
