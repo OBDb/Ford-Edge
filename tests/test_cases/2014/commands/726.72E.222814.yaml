@@ -4,5 +4,5 @@ test_cases:
     EDGE_TP_FR: 26.7
   response: '72E056228140216'
 - expected_values:
-    EDGE_TP_FR: 36.85
-  response: 72E0562281402E1
+    EDGE_TP_FR: 37.15
+  response: 72E0562281402E7
