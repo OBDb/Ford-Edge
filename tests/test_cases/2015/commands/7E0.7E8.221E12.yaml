@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     EDGE_GEAR: '2'
   response: 7E804621E1202
+- expected_values:
+    EDGE_GEAR: '4'
+  response: 7E804621E1204
