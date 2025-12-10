@@ -7,8 +7,8 @@ test_cases:
     EDGE_TOT: 30.375
   response: 7E805621E1C01E6
 - expected_values:
-    EDGE_TOT: 35.125
-  response: 7E805621E1C0232
+    EDGE_TOT: 32.9375
+  response: 7E805621E1C020F
 - expected_values:
     EDGE_TOT: 68.625
   response: 7E805621E1C044A
