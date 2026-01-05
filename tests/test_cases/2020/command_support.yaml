@@ -10,6 +10,7 @@ supported_commands_by_ecu:
   - 726.72E.222817:EDGE_TP_RRI
   - 726.72E.222818:EDGE_TP_RLI
   "7DF":
+  - 7DF.0104
   - 7DF.010D
   - 7DF.221E12:EDGE_GEAR
   - 7DF.221E1C:EDGE_TOT
