@@ -55,7 +55,7 @@
   "signals": [
     {"id": "EDGE_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2018], "from": 2021 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2015, 2018], "from": 2021 },
   "signals": [
     {"id": "EDGE_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
