@@ -8,4 +8,4 @@ test_cases:
   response: 7E8056203E8C3F3
 - expected_values:
     EDGE_OAR: 1
-  response: 7E8056203E8E13E
+  response: 7E8056203E8EE4F
