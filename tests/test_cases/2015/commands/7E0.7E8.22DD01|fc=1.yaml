@@ -7,26 +7,8 @@ test_cases:
     EDGE_ODO: 115996
   response: 7E80662DD0101C51C
 - expected_values:
-    EDGE_ODO: 115997
-  response: 7E80662DD0101C51D
-- expected_values:
     EDGE_ODO: 176803
   response: 7E80662DD0102B2A3
 - expected_values:
-    EDGE_ODO: 176804
-  response: 7E80662DD0102B2A4
-- expected_values:
-    EDGE_ODO: 176805
-  response: 7E80662DD0102B2A5
-- expected_values:
-    EDGE_ODO: 176806
-  response: 7E80662DD0102B2A6
-- expected_values:
-    EDGE_ODO: 176807
-  response: 7E80662DD0102B2A7
-- expected_values:
-    EDGE_ODO: 176808
-  response: 7E80662DD0102B2A8
-- expected_values:
-    EDGE_ODO: 176809
-  response: 7E80662DD0102B2A9
+    EDGE_ODO: 176810
+  response: 7E80662DD0102B2AA
