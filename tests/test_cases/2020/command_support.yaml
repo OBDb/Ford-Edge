@@ -42,6 +42,7 @@ supported_commands_by_ecu:
   - 012F:FLI
   - 0130:WARM_UPS
   - 0131:CLR_DIST
+  - 0132:EVAP_VP
   - 0133:BARO
   - 0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 013C:CATEMP11
@@ -52,6 +53,7 @@ supported_commands_by_ecu:
   - 0144:EQ_RAT
   - 0145:TP_R
   - 0146:AAT
+  - 0147:TP_B
   - 0149:APP_D
   - 014A:APP_E
   - 014C:TAC_PCT
