@@ -1,0 +1,5 @@
+command_id: 7E0.2203DC
+test_cases:
+- expected_values:
+    EDGE_HPFP_DES: 326.33491
+  response: 7E8056203DC00E1
