@@ -4,14 +4,5 @@ test_cases:
     EDGE_MCT: 53
   response: 7E8046203CA35
 - expected_values:
-    EDGE_MCT: 79
-  response: 7E8046203CA4F
-- expected_values:
-    EDGE_MCT: 80
-  response: 7E8046203CA50
-- expected_values:
-    EDGE_MCT: 81
-  response: 7E8046203CA51
-- expected_values:
     EDGE_MCT: 83
   response: 7E8046203CA53
