@@ -1,5 +1,17 @@
 command_id: 7E0.22033C
 test_cases:
 - expected_values:
+    EDGE_TIP_V: 1.58691
+  response: 7E80562033C0145
+- expected_values:
     EDGE_TIP_V: 1.5918
   response: 7E80562033C0146
+- expected_values:
+    EDGE_TIP_V: 1.59668
+  response: 7E80562033C0147
+- expected_values:
+    EDGE_TIP_V: 1.63574
+  response: 7E80562033C014F
+- expected_values:
+    EDGE_TIP_V: 1.66016
+  response: 7E80562033C0154
