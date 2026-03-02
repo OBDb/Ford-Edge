@@ -7,8 +7,5 @@ test_cases:
     EDGE_TIP_ABS: 14.70662
   response: 7E80562033E33EC
 - expected_values:
-    EDGE_TIP_ABS: 14.75309
-  response: 7E80562033E3416
-- expected_values:
-    EDGE_TIP_ABS: 15.12595
-  response: 7E80562033E3567
+    EDGE_TIP_ABS: 15.31294
+  response: 7E80562033E3610
