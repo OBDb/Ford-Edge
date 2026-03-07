@@ -13,6 +13,9 @@ test_cases:
     EDGE_ODO: 130816
   response: 7E80662DD0101FF00
 - expected_values:
+    EDGE_ODO: 131072
+  response: 7E80662DD01020000
+- expected_values:
     EDGE_ODO: 97835
   response: |-
     > 7E0.7E8.22DD01
