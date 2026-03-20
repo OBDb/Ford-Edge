@@ -1,0 +1,14 @@
+command_id: 7E0.2203CA
+test_cases:
+- expected_values:
+    EDGE_MCT: 55
+  response: 7E8046203CA37
+- expected_values:
+    EDGE_MCT: 56
+  response: 7E8046203CA38
+- expected_values:
+    EDGE_MCT: 57
+  response: 7E8046203CA39
+- expected_values:
+    EDGE_MCT: 58
+  response: 7E8046203CA3A
