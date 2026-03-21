@@ -5,13 +5,7 @@ test_cases:
   response: 7E80562031A0000
 - expected_values:
     EDGE_VCT_INT_ERR: 50
-  response: 7E80562031AFFFC
-- expected_values:
-    EDGE_VCT_INT_ERR: 50
-  response: 7E80562031AFFFD
-- expected_values:
-    EDGE_VCT_INT_ERR: 50
-  response: 7E80562031AFFFE
+  response: 7E80562031AFFBD
 - expected_values:
     EDGE_VCT_INT_ERR: 50
   response: 7E80562031AFFFF
