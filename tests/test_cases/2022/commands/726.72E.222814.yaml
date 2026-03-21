@@ -15,3 +15,18 @@ test_cases:
 - expected_values:
     EDGE_TP_FR: 35.3
   response: 72E0562281402C2
+- expected_values:
+    EDGE_TP_FR: 35.55
+  response: 72E0562281402C7
+- expected_values:
+    EDGE_TP_FR: 35.8
+  response: 72E0562281402CC
+- expected_values:
+    EDGE_TP_FR: 36.05
+  response: 72E0562281402D1
+- expected_values:
+    EDGE_TP_FR: 36.3
+  response: 72E0562281402D6
+- expected_values:
+    EDGE_TP_FR: 36.55
+  response: 72E0562281402DB
