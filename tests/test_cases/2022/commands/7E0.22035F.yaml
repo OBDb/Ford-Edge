@@ -4,8 +4,8 @@ test_cases:
     EDGE_RO2_V: 0.35352
   response: 7E80562035F016A
 - expected_values:
-    EDGE_RO2_V: 0.67676
-  response: 7E80562035F02B5
+    EDGE_RO2_V: 0.7373
+  response: 7E80562035F02F3
 - expected_values:
-    EDGE_RO2_V: 0.77441
-  response: 7E80562035F0319
+    EDGE_RO2_V: 0.75488
+  response: 7E80562035F0305

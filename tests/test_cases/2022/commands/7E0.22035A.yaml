@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     EDGE_BARO_V: 3.93939
   response: 7E80562035A0326
+- expected_values:
+    EDGE_BARO_V: 3.98338
+  response: 7E80562035A032F
+- expected_values:
+    EDGE_BARO_V: 3.98827
+  response: 7E80562035A0330

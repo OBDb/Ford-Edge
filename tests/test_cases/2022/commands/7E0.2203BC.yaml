@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     EDGE_VCT_INT_DES: 0
   response: 7E8056203BC0000
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFF8F
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFF9F
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFFB3
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFFF6
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFFFA
