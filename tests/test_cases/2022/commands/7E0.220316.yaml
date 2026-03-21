@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     EDGE_VCT_INT_DUTY: 0
   response: '7E8056203160000'
+- expected_values:
+    EDGE_VCT_INT_DUTY: 31.00281
+  response: 7E80562031627AF
