@@ -127,7 +127,7 @@
   "signals": [
     {"id": "EDGE_VCT_INT_ACT", "fmt": { "len": 16, "max": 0, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake camshaft actual"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0319"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2018, 2021], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "0319"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_VCT_EXH_ACT", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust camshaft actual"}
   ]},
@@ -135,7 +135,7 @@
   "signals": [
     {"id": "EDGE_VCT_INT_ERR", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT intake camshaft error"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "031B"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2018, 2021], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "031B"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_VCT_EXH_ERR", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust camshaft error"}
   ]},
@@ -199,7 +199,7 @@
   "signals": [
     {"id": "EDGE_CL_LC", "fmt": { "len": 16, "max": 5, "min": -5, "mul": 0.0001220703, "unit": "scalar" }, "name": "Closed loop lambda correction"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03CA"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2018, 2021], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "03CA"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_MCT", "fmt": { "len": 8, "max": 148.889, "unit": "celsius" }, "name": "Manifold charge temperature"}
   ]},
