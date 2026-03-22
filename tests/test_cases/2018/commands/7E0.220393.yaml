@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     EDGE_AC_P: 73.3891
   response: 7E80562039300FD
+- expected_values:
+    EDGE_AC_P: 190.28953
+  response: '7E8056203930290'
