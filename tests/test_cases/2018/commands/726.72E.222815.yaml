@@ -1,11 +1,8 @@
 command_id: 726.72E.222815
 test_cases:
 - expected_values:
-    EDGE_TP_RRO: 35.9
-  response: 72E0562281502CE
+    EDGE_TP_RRO: 34.5
+  response: 72E0562281502B2
 - expected_values:
-    EDGE_TP_RRO: 36.15
-  response: 72E0562281502D3
-- expected_values:
-    EDGE_TP_RRO: 36.4
-  response: 72E0562281502D8
+    EDGE_TP_RRO: 36.5
+  response: 72E0562281502DA
