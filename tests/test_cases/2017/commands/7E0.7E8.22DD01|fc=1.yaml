@@ -13,5 +13,5 @@ test_cases:
     EDGE_ODO: 195584
   response: 7E80662DD0102FC00
 - expected_values:
-    EDGE_ODO: 242694
-  response: 7E80662DD0103B406
+    EDGE_ODO: 202912
+  response: 7E80662DD010318A0
