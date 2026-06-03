@@ -49,6 +49,7 @@ supported_commands_by_ecu:
   - 014C:TAC_PCT
   - 014D:MIL_TIME
   - 014E:CLR_TIME
+  - 7E0.2203BB:EDGE_VCT_EXH_DES
 unsupported_commands_by_ecu:
   "720":
   - 720.728.226180

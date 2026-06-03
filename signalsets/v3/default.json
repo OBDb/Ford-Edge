@@ -187,7 +187,7 @@
   "signals": [
     {"id": "EDGE_AAT_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Ambient air temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03BB"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2021], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "03BB"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_VCT_EXH_DES", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "VCT exhaust cam desired"}
   ]},
