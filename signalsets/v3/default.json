@@ -159,7 +159,7 @@
   "signals": [
     {"id": "EDGE_TIP_ABS", "fmt": { "len": 16, "max": 60, "mul": 0.0011064263, "unit": "psi" }, "name": "Throttle inlet pressure absolute"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0353"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2021], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "0353"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_BARO", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 0.0362553791, "unit": "psi" }, "name": "Barometric pressure"}
   ]},
