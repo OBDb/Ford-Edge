@@ -83,7 +83,7 @@
   "signals": [
     {"id": "EDGE_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7DF", "cmd": {"22": "1E12"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2016, 2021], "from": 2023 },
+{ "hdr": "7DF", "cmd": {"22": "1E12"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_GEAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
   ]},
@@ -107,7 +107,7 @@
   "signals": [
     {"id": "EDGE_MAP_V", "fmt": { "len": 16, "max": 5, "mul": 0.0009765625, "unit": "volts" }, "name": "Manifold absolute pressure sensor voltage", "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle."}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0307"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2021], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "0307"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_LPFP_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "Low pressure fuel pump commanded duty cycle"}
   ]},
@@ -211,7 +211,7 @@
   "signals": [
     {"id": "EDGE_OAR", "fmt": { "len": 16, "max": 1, "min": -1, "mul": 0.0000610352, "unit": "scalar" }, "name": "Octane adjust ratio"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2016, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_GEAR", "path": "Engine", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
