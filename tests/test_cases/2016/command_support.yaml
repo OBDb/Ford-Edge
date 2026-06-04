@@ -64,6 +64,7 @@ unsupported_commands_by_ecu:
   "7DF":
   - 7DF.221310:EDGE_EOT
   "7E0":
+  - 7E0.220324:EDGE_HPFP_V
   - 7E0.2203DC:EDGE_HPFP_DES
   "7E4":
   - 7E4.7EC.224810|fc=1:EDGE_HVBAT_AGE
