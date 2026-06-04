@@ -207,7 +207,7 @@
   "signals": [
     {"id": "EDGE_HPFP_DES", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "High pressure fuel pressure desired"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03E8"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016, 2021], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "03E8"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_OAR", "fmt": { "len": 16, "max": 1, "min": -1, "mul": 0.0000610352, "unit": "scalar" }, "name": "Octane adjust ratio"}
   ]},
