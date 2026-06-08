@@ -43,7 +43,7 @@
         }}
     }
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2016, 2021], "from": 2023 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
