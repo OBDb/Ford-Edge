@@ -227,7 +227,7 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2016, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2021], "from": 2023 },
   "signals": [
     {"id": "EDGE_TOT", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
@@ -301,7 +301,7 @@
   "signals": [
     {"id": "EDGE_HVBAT_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery state of health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "fcm1": true, "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
+{ "hdr": "7E6", "rax": "7EE", "fcm1": true, "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2019], "from": 2021 },
   "signals": [
     {"id": "EDGE_TT", "path": "Transmission", "fmt": { "len": 16, "max": 300, "min": -300, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission temperature"}
   ]}
