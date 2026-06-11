@@ -55,6 +55,7 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
   - 7E0.0131:CLR_DIST
+  - 7E0.0144:EQ_RAT
   - 7E0.220307:EDGE_LPFP_DUTY
   - 7E0.220318:EDGE_VCT_INT_ACT
   - 7E0.22031A:EDGE_VCT_INT_ERR
@@ -63,6 +64,8 @@ supported_commands_by_ecu:
   - 7E0.2203BB:EDGE_VCT_EXH_DES
   - 7E0.2203BD:EDGE_CL_LC
   - 7E0.2203E8:EDGE_OAR
+  "7E6":
+  - 7E6.7EE.221E1C|fc=1:EDGE_TT
 unsupported_commands_by_ecu:
   "720":
   - 720.728.226180
