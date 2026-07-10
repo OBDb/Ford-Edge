@@ -111,7 +111,7 @@
   "signals": [
     {"id": "EDGE_LPFP_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "Low pressure fuel pump commanded duty cycle"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "030F"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2018, 2019], "from": 2021 },
+{ "hdr": "7E0", "cmd": {"22": "030F"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2018], "from": 2021 },
   "signals": [
     {"id": "EDGE_CL", "fmt": { "len": 16, "max": 5, "mul": 0.0000305176, "unit": "scalar" }, "name": "Commanded lambda", "description": "The ratio of of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
   ]},
