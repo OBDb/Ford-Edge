@@ -1,0 +1,14 @@
+command_id: 760.768.223201
+test_cases:
+- expected_values:
+    EDGE_STEER_ANGLE: 450
+  response: 76805623201484C
+- expected_values:
+    EDGE_STEER_ANGLE: 643.75
+  response: '768056232016700'
+- expected_values:
+    EDGE_STEER_ANGLE: 718.75
+  response: 7680562320173F8
+- expected_values:
+    EDGE_STEER_ANGLE: -450
+  response: 76805623201B8E0

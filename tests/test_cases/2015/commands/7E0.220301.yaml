@@ -1,0 +1,29 @@
+command_id: 7E0.220301
+test_cases:
+- expected_values:
+    EDGE_MAP_V: 0.625
+  response: '7E8056203010280'
+- expected_values:
+    EDGE_MAP_V: 0.63477
+  response: 7E805620301028A
+- expected_values:
+    EDGE_MAP_V: 0.63965
+  response: 7E805620301028F
+- expected_values:
+    EDGE_MAP_V: 0.64453
+  response: '7E8056203010294'
+- expected_values:
+    EDGE_MAP_V: 0.65918
+  response: 7E80562030102A3
+- expected_values:
+    EDGE_MAP_V: 0.66406
+  response: 7E80562030102A8
+- expected_values:
+    EDGE_MAP_V: 0.66895
+  response: 7E80562030102AD
+- expected_values:
+    EDGE_MAP_V: 0.67383
+  response: 7E80562030102B2
+- expected_values:
+    EDGE_MAP_V: 0.69824
+  response: 7E80562030102CB

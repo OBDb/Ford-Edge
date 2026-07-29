@@ -1,0 +1,11 @@
+command_id: 7E0.2203BA
+test_cases:
+- expected_values:
+    EDGE_AAT_V: 3.42131
+  response: 7E8056203BA02BC
+- expected_values:
+    EDGE_AAT_V: 3.72434
+  response: 7E8056203BA02FA
+- expected_values:
+    EDGE_AAT_V: 3.75367
+  response: 7E8056203BA0300

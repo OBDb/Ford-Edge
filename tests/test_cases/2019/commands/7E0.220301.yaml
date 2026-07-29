@@ -1,0 +1,14 @@
+command_id: 7E0.220301
+test_cases:
+- expected_values:
+    EDGE_MAP_V: 0.38379
+  response: '7E8056203010189'
+- expected_values:
+    EDGE_MAP_V: 0.49902
+  response: 7E80562030101FF
+- expected_values:
+    EDGE_MAP_V: 1.75098
+  response: '7E8056203010701'
+- expected_values:
+    EDGE_MAP_V: 2.55371
+  response: 7E8056203010A37
