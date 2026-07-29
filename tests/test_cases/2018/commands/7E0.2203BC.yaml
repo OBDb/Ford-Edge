@@ -1,0 +1,23 @@
+command_id: 7E0.2203BC
+test_cases:
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BC0000
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFE05
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFE38
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFF21
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFF55
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFF75
+- expected_values:
+    EDGE_VCT_INT_DES: 0
+  response: 7E8056203BCFFA6
