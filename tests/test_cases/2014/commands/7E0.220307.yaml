@@ -1,0 +1,14 @@
+command_id: 7E0.220307
+test_cases:
+- expected_values:
+    EDGE_LPFP_DUTY: 37.5824
+  response: 7E805620307301B
+- expected_values:
+    EDGE_LPFP_DUTY: 39.05945
+  response: 7E80562030731FF
+- expected_values:
+    EDGE_LPFP_DUTY: 39.0625
+  response: '7E8056203073200'
+- expected_values:
+    EDGE_LPFP_DUTY: 43.07251
+  response: '7E8056203073722'
