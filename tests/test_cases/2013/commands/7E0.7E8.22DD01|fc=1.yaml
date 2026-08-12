@@ -6,3 +6,15 @@ test_cases:
 - expected_values:
     EDGE_ODO: 151777
   response: 7E80662DD010250E1
+- expected_values:
+    EDGE_ODO: 208342
+  response: 7E80662DD01032DD6
+- expected_values:
+    EDGE_ODO: 208415
+  response: 7E80662DD01032E1F
+- expected_values:
+    EDGE_ODO: 208440
+  response: 7E80662DD01032E38
+- expected_values:
+    EDGE_ODO: 208451
+  response: 7E80662DD01032E43
