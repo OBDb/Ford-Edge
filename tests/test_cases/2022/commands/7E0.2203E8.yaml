@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     EDGE_OAR: 0
   response: 7E8056203E80000
+- expected_values:
+    EDGE_OAR: 0.20123
+  response: 7E8056203E80CE1
