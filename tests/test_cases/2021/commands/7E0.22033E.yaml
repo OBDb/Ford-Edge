@@ -6,3 +6,21 @@ test_cases:
 - expected_values:
     EDGE_TIP_ABS: 14.11136
   response: 7E80562033E31D2
+- expected_values:
+    EDGE_TIP_ABS: 14.24081
+  response: 7E80562033E3247
+- expected_values:
+    EDGE_TIP_ABS: 14.25409
+  response: 7E80562033E3253
+- expected_values:
+    EDGE_TIP_ABS: 14.26737
+  response: 7E80562033E325F
+- expected_values:
+    EDGE_TIP_ABS: 14.4621
+  response: 7E80562033E330F
+- expected_values:
+    EDGE_TIP_ABS: 14.57938
+  response: 7E80562033E3379
+- expected_values:
+    EDGE_TIP_ABS: 17.20493
+  response: 7E80562033E3CBE

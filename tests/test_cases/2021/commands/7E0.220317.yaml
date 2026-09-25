@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     EDGE_VCT_EXH_DUTY: 0
   response: '7E8056203170000'
+- expected_values:
+    EDGE_VCT_EXH_DUTY: 37.0697
+  response: 7E8056203172F73
+- expected_values:
+    EDGE_VCT_EXH_DUTY: 37.53967
+  response: 7E805620317300D
+- expected_values:
+    EDGE_VCT_EXH_DUTY: 38.40637
+  response: '7E8056203173129'
+- expected_values:
+    EDGE_VCT_EXH_DUTY: 38.73291
+  response: '7E8056203173194'
+- expected_values:
+    EDGE_VCT_EXH_DUTY: 44.75098
+  response: '7E8056203173948'

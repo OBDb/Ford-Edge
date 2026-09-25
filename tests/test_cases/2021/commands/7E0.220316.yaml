@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     EDGE_VCT_INT_DUTY: 0
   response: '7E8056203160000'
+- expected_values:
+    EDGE_VCT_INT_DUTY: 29.15955
+  response: '7E8056203162553'
+- expected_values:
+    EDGE_VCT_INT_DUTY: 34.00574
+  response: 7E8056203162B87
+- expected_values:
+    EDGE_VCT_INT_DUTY: 34.71985
+  response: 7E8056203162C71
+- expected_values:
+    EDGE_VCT_INT_DUTY: 34.79614
+  response: 7E8056203162C8A
+- expected_values:
+    EDGE_VCT_INT_DUTY: 35.35767
+  response: 7E8056203162D42
+- expected_values:
+    EDGE_VCT_INT_DUTY: 45.44678
+  response: 7E8056203163A2C

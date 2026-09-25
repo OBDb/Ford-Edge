@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     ODO: 134445.7
   response: 7E80641A6001483C9
+- expected_values:
+    ODO: 134448.3
+  response: 7E80641A6001483E3
+- expected_values:
+    ODO: 134451.6
+  response: 7E80641A600148404
+- expected_values:
+    ODO: 134452.6
+  response: 7E80641A60014840E
+- expected_values:
+    ODO: 134453.6
+  response: 7E80641A600148418
