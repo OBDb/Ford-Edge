@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     EDGE_CL_LC: 0
   response: 7E8056203BD0000
+- expected_values:
+    EDGE_CL_LC: 0.01025
+  response: 7E8056203BD0054
+- expected_values:
+    EDGE_CL_LC: 0.02271
+  response: 7E8056203BD00BA
+- expected_values:
+    EDGE_CL_LC: 0.03088
+  response: 7E8056203BD00FD
+- expected_values:
+    EDGE_CL_LC: 5
+  response: 7E8056203BDFF62
+- expected_values:
+    EDGE_CL_LC: 5
+  response: 7E8056203BDFF8D
+- expected_values:
+    EDGE_CL_LC: 5
+  response: 7E8056203BDFF99

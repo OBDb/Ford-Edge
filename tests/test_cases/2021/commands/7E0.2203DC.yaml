@@ -6,3 +6,21 @@ test_cases:
 - expected_values:
     EDGE_HPFP_DES: 75.41962
   response: 7E8056203DC0034
+- expected_values:
+    EDGE_HPFP_DES: 1167.5538
+  response: 7E8056203DC0325
+- expected_values:
+    EDGE_HPFP_DES: 1280.68324
+  response: 7E8056203DC0373
+- expected_values:
+    EDGE_HPFP_DES: 1588.16325
+  response: 7E8056203DC0447
+- expected_values:
+    EDGE_HPFP_DES: 1966.71175
+  response: 7E8056203DC054C
+- expected_values:
+    EDGE_HPFP_DES: 2078.39081
+  response: 7E8056203DC0599
+- expected_values:
+    EDGE_HPFP_DES: 2294.49704
+  response: 7E8056203DC062E

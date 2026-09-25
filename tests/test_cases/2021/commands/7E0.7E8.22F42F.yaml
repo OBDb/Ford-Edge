@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
-    EDGE_FLI: 68.62745
-  response: 7E80462F42FAF
+    EDGE_FLI: 31.76471
+  response: 7E80462F42F51
 - expected_values:
-    EDGE_FLI: 69.01961
-  response: 7E80462F42FB0
+    EDGE_FLI: 60
+  response: 7E80462F42F99
+- expected_values:
+    EDGE_FLI: 82.7451
+  response: 7E80462F42FD3
