@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "720", "rax": "728", "cmd": {"22": "6185"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009], "from": 2011 },
   "signals": [
     {"id": "EDGE_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
