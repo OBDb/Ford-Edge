@@ -7,5 +7,5 @@ test_cases:
     EDGE_CL_LC: 0.005
   response: 7E8056203BD0029
 - expected_values:
-    EDGE_CL_LC: 5
+    EDGE_CL_LC: -0.00488
   response: 7E8056203BDFFD8

@@ -4,5 +4,5 @@ test_cases:
     EDGE_ETC_TRIM_LEARNED: 0.06055
   response: 7E805620338001F
 - expected_values:
-    EDGE_ETC_TRIM_LEARNED: 90
+    EDGE_ETC_TRIM_LEARNED: -0.38281
   response: 7E805620338FF3C
