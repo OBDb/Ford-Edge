@@ -4,20 +4,20 @@ test_cases:
     EDGE_VCT_INT_DES: 0
   response: 7E8056203BC0000
 - expected_values:
-    EDGE_VCT_INT_DES: 0
+    EDGE_VCT_INT_DES: -31.6875
   response: 7E8056203BCFE05
 - expected_values:
-    EDGE_VCT_INT_DES: 0
+    EDGE_VCT_INT_DES: -28.5
   response: 7E8056203BCFE38
 - expected_values:
-    EDGE_VCT_INT_DES: 0
+    EDGE_VCT_INT_DES: -13.9375
   response: 7E8056203BCFF21
 - expected_values:
-    EDGE_VCT_INT_DES: 0
+    EDGE_VCT_INT_DES: -10.6875
   response: 7E8056203BCFF55
 - expected_values:
-    EDGE_VCT_INT_DES: 0
+    EDGE_VCT_INT_DES: -8.6875
   response: 7E8056203BCFF75
 - expected_values:
-    EDGE_VCT_INT_DES: 0
+    EDGE_VCT_INT_DES: -5.625
   response: 7E8056203BCFFA6
