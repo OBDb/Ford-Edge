@@ -1,14 +1,14 @@
 command_id: 7E0.22038E
 test_cases:
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 1.976
   response: 7E80562038E07B8
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.317
   response: 7E80562038E090D
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.547
   response: 7E80562038E09F3
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.582
   response: 7E80562038E0A16
