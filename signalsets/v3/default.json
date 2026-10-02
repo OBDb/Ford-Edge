@@ -176,7 +176,7 @@
   ]},
 { "hdr": "7E0", "cmd": {"22": "038E"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2016], "from": 2024 },
   "signals": [
-    {"id": "EDGE_EVAP_V", "fmt": { "len": 16, "max": 5, "mul": 0.1998046869, "unit": "volts" }, "name": "Evaporative vapor pressure sensor voltage"}
+    {"id": "EDGE_EVAP_V", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Evaporative vapor pressure sensor voltage"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "038F"}, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2024 },
   "signals": [

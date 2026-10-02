@@ -1,26 +1,26 @@
 command_id: 7E0.22038E
 test_cases:
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.532
   response: 7E80562038E09E4
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.602
   response: 7E80562038E0A2A
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.617
   response: 7E80562038E0A39
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.642
   response: 7E80562038E0A52
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.672
   response: 7E80562038E0A70
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.687
   response: 7E80562038E0A7F
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.692
   response: 7E80562038E0A84
 - expected_values:
-    EDGE_EVAP_V: 5
+    EDGE_EVAP_V: 2.712
   response: 7E80562038E0A98
