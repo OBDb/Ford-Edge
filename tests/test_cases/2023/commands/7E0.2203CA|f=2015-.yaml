@@ -1,0 +1,8 @@
+command_id: 7E0.2203CA|f=2015-
+test_cases:
+- expected_values:
+    EDGE_MCT: 76
+  response: 7E8046203CA4C
+- expected_values:
+    EDGE_MCT: 77
+  response: 7E8046203CA4D
