@@ -1,14 +1,14 @@
 command_id: 7E0.220319
 test_cases:
 - expected_values:
-    EDGE_VCT_EXH_ACT: 50
+    EDGE_VCT_EXH_ACT: -0.3125
   response: 7E805620319FFFB
 - expected_values:
-    EDGE_VCT_EXH_ACT: 50
+    EDGE_VCT_EXH_ACT: -0.1875
   response: 7E805620319FFFD
 - expected_values:
-    EDGE_VCT_EXH_ACT: 50
+    EDGE_VCT_EXH_ACT: -0.125
   response: 7E805620319FFFE
 - expected_values:
-    EDGE_VCT_EXH_ACT: 50
+    EDGE_VCT_EXH_ACT: -0.0625
   response: 7E805620319FFFF
