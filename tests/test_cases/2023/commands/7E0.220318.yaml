@@ -4,8 +4,8 @@ test_cases:
     EDGE_VCT_INT_ACT: 0
   response: '7E8056203180000'
 - expected_values:
-    EDGE_VCT_INT_ACT: 0
+    EDGE_VCT_INT_ACT: 0.0625
   response: '7E8056203180001'
 - expected_values:
-    EDGE_VCT_INT_ACT: 0
+    EDGE_VCT_INT_ACT: -0.0625
   response: 7E805620318FFFF
