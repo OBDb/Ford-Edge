@@ -1,4 +1,4 @@
-command_id: 720.728.2261A5
+command_id: 720.728.2261A5|f=-2014
 test_cases:
 - expected_values:
     EDGE_TPMS_WARN: 0
