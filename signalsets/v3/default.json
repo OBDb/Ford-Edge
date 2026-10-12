@@ -214,6 +214,14 @@
   "signals": [
     {"id": "EDGE_OAR", "fmt": { "len": 16, "max": 1, "min": -1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjust ratio"}
   ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "4194"}, "freq": 30,
+  "signals": [
+    {"id": "EDGE_DTE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, calculated", "suggestedMetric": "fuelRange"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "4195"}, "freq": 30,
+  "signals": [
+    {"id": "EDGE_DTE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, displayed", "suggestedMetric": "fuelRange"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2, "dbgfilter": { "to": 2012, "from": 2024 },
   "signals": [
     {"id": "EDGE_GEAR", "path": "Engine", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
