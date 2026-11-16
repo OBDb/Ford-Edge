@@ -164,7 +164,7 @@
   ]},
 { "hdr": "7E0", "cmd": {"22": "0353"}, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2024 },
   "signals": [
-    {"id": "EDGE_BARO", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 0.0362553791, "unit": "psi" }, "name": "Barometric pressure"}
+    {"id": "EDGE_BARO", "fmt": { "len": 16, "max": 20, "min": 8, "mul": 0.0362553791, "unit": "psi" }, "name": "Barometric pressure", "suggestedMetric": "barometricPressure"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "035A"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "years": [2016], "from": 2024 },
   "signals": [
