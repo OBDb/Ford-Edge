@@ -46,7 +46,7 @@
         }}
     }
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "to": 2012, "from": 2024 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2015], "from": 2024 },
   "signals": [
     {"id": "EDGE_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
@@ -54,19 +54,19 @@
   "signals": [
     {"id": "EDGE_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5, "dbgfilter": { "to": 2012, "from": 2024 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2015], "from": 2024 },
   "signals": [
     {"id": "EDGE_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "dbgfilter": { "to": 2012, "from": 2024 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2015], "from": 2024 },
   "signals": [
     {"id": "EDGE_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2016], "from": 2024 },
+{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "2817"}, "freq": 5,
   "signals": [
     {"id": "EDGE_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "nullmin": 0, "nullmax": 150, "unit": "psi" }, "name": "Rear right inner tire pressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2818"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2016], "from": 2024 },
+{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "2818"}, "freq": 5,
   "signals": [
     {"id": "EDGE_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "nullmin": 0, "nullmax": 150, "unit": "psi" }, "name": "Rear left inner tire pressure"}
   ]},
